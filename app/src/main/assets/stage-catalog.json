@@ -1,0 +1,2919 @@
+{
+  "years": [
+    {
+      "year": 1776,
+      "title": "纽约 · 革命初遇",
+      "available": true
+    },
+    {
+      "year": 1780,
+      "title": "冬季舞会 · 相遇与心动",
+      "available": true
+    },
+    {
+      "year": 1781,
+      "title": "约克镇 · 并肩作战",
+      "available": true
+    },
+    {
+      "year": 1789,
+      "title": "纽约 · Jefferson 归来",
+      "available": true
+    },
+    {
+      "year": 1791,
+      "title": "费城 · Reynolds 往事",
+      "available": true
+    },
+    {
+      "year": 1800,
+      "title": "总统大选 · Hamilton 的选择",
+      "available": true
+    }
+  ],
+  "scenes": [
+    {
+      "year": 1776,
+      "actors": [
+        {
+          "role": "Hamilton",
+          "name": "亚历山大·汉密尔顿",
+          "english": "Alexander Hamilton",
+          "sentences": [
+            "初到纽约的青年，满怀抱负，渴望投身革命。",
+            "他结识伯尔与一群革命伙伴，决心抓住改变命运的机会。"
+          ],
+          "asset": "cast/Hamilton.glb",
+          "bounds": {
+            "min": [
+              -0.6153596019744874,
+              1.4305114759416426e-08,
+              -0.5192862749099731
+            ],
+            "max": [
+              0.6153596019744874,
+              1.8000000715255737,
+              0.25800004601478577
+            ]
+          },
+          "position": [
+            0,
+            0.04,
+            2.6
+          ],
+          "facing": 0,
+          "music": {
+            "id": "1776-hamilton",
+            "song": "My Shot",
+            "file": "audio/1776-hamilton.m4a",
+            "duration": 23,
+            "singers": [
+              "Hamilton"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2.8,
+                "en": "I am not throwing away my shot",
+                "zh": "我不会放弃这次机会"
+              },
+              {
+                "start": 2.8,
+                "end": 5.55,
+                "en": "I am not throwing away my shot",
+                "zh": "我不会放弃这次机会"
+              },
+              {
+                "start": 5.55,
+                "end": 6.95,
+                "en": "Hey yo, I’m just like my country",
+                "zh": "嘿，我就像我的国家"
+              },
+              {
+                "start": 6.95,
+                "end": 8.35,
+                "en": "I’m young, scrappy and hungry",
+                "zh": "年轻、顽强，满怀渴望"
+              },
+              {
+                "start": 8.35,
+                "end": 11.1,
+                "en": "And I’m not throwing away my shot",
+                "zh": "我绝不会放弃这次机会"
+              },
+              {
+                "start": 11.1,
+                "end": 13.8,
+                "en": "I’m ‘a get a scholarship to King’s College",
+                "zh": "我要拿到国王学院的奖学金"
+              },
+              {
+                "start": 13.8,
+                "end": 16.6,
+                "en": "I probably shouldn’t brag, but dag, I amaze and astonish",
+                "zh": "也许不该自夸，可我的才华实在令人惊叹"
+              },
+              {
+                "start": 16.6,
+                "end": 19.35,
+                "en": "The problem is I got a lot of brains but no polish",
+                "zh": "问题是，我满脑子才华，却还未经打磨"
+              },
+              {
+                "start": 19.35,
+                "end": 20.75,
+                "en": "I gotta holler just to be heard",
+                "zh": "我得大声呼喊，才能让人听见"
+              },
+              {
+                "start": 20.75,
+                "end": 22.15,
+                "en": "With every word, I drop knowledge",
+                "zh": "我的每句话都带着见识"
+              },
+              {
+                "start": 22.15,
+                "end": 23,
+                "en": "I’m a diamond in the rough",
+                "zh": "我是一颗尚未雕琢的钻石"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Burr",
+          "name": "阿伦·伯尔",
+          "english": "Aaron Burr",
+          "sentences": [
+            "Hamilton 在纽约结识的律师，处事谨慎，习惯等待时机。",
+            "两人的政治道路逐渐分岔，友谊也慢慢转为竞争。"
+          ],
+          "asset": "cast/Burr.glb",
+          "bounds": {
+            "min": [
+              -0.6153594255447388,
+              2.1755695023273347e-09,
+              -0.28830569982528687
+            ],
+            "max": [
+              0.6153596639633179,
+              1.8000000715255737,
+              0.2580000162124634
+            ]
+          },
+          "position": [
+            1.6,
+            0.04,
+            0.3
+          ],
+          "facing": -35,
+          "music": {
+            "id": "1776-burr",
+            "song": "Aaron Burr, Sir",
+            "file": "audio/1776-burr.m4a",
+            "duration": 24.5,
+            "singers": [
+              "Burr",
+              "Hamilton"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.55,
+                "en": "Can I buy you a drink?",
+                "zh": "我请你喝一杯，好吗？"
+              },
+              {
+                "start": 1.55,
+                "end": 2.65,
+                "en": "That would be nice",
+                "zh": "那太好了"
+              },
+              {
+                "start": 2.65,
+                "end": 5.4,
+                "en": "While we’re talking, let me offer you some free advice",
+                "zh": "既然聊起来了，免费送你一点忠告"
+              },
+              {
+                "start": 5.4,
+                "end": 7.3,
+                "en": "Talk less.",
+                "zh": "少说话。"
+              },
+              {
+                "start": 7.3,
+                "end": 7.6,
+                "en": "What?",
+                "zh": "什么？"
+              },
+              {
+                "start": 7.6,
+                "end": 9.8,
+                "en": "Smile more.",
+                "zh": "多微笑。"
+              },
+              {
+                "start": 9.8,
+                "end": 10.1,
+                "en": "Ha!",
+                "zh": "哈！"
+              },
+              {
+                "start": 10.1,
+                "end": 16.2,
+                "en": "Don’t let them know what you’re against or what you’re for.",
+                "zh": "别让他们知道，你反对什么，又支持什么。"
+              },
+              {
+                "start": 16.3,
+                "end": 18.1,
+                "en": "You can’t be serious.",
+                "zh": "你不是认真的吧。"
+              },
+              {
+                "start": 18.3,
+                "end": 20,
+                "en": "You wanna get ahead?",
+                "zh": "你想出人头地吗？"
+              },
+              {
+                "start": 20.1,
+                "end": 21,
+                "en": "Yes.",
+                "zh": "当然。"
+              },
+              {
+                "start": 23,
+                "end": 24.5,
+                "en": "Fools who run their mouths off wind up dead.",
+                "zh": "口无遮拦的傻瓜，到头来会送命。"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Laurens",
+          "name": "约翰·劳伦斯",
+          "english": "John Laurens",
+          "sentences": [
+            "Hamilton 的革命伙伴，热情勇敢，主张废除奴隶制。",
+            "他与朋友们共同投身独立战争，梦想让自由属于更多人。"
+          ],
+          "asset": "cast/Laurens.glb",
+          "bounds": {
+            "min": [
+              -0.6153596043586731,
+              2.1755695023273347e-09,
+              -0.5192862153053284
+            ],
+            "max": [
+              0.6153596043586731,
+              1.8000000715255737,
+              0.25800007581710815
+            ]
+          },
+          "position": [
+            -1.6,
+            0.04,
+            0.2
+          ],
+          "facing": 25,
+          "music": {
+            "id": "1776-laurens",
+            "song": "Aaron Burr, Sir",
+            "file": "audio/1776-laurens.m4a",
+            "duration": 13.4,
+            "singers": [
+              "Laurens"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.6,
+                "en": "Show time, show time!",
+                "zh": "好戏开场，好戏开场！"
+              },
+              {
+                "start": 1.6,
+                "end": 4.9,
+                "en": "Yo, I’m John Laurens in the place to be",
+                "zh": "嘿，我是约翰·劳伦斯，今晚就在这里"
+              },
+              {
+                "start": 4.9,
+                "end": 8.3,
+                "en": "Two pints o’ Sam Adams, but I’m workin’ on three, uh",
+                "zh": "两品脱塞缪尔·亚当斯啤酒下肚，第三杯也快了"
+              },
+              {
+                "start": 8.3,
+                "end": 10.5,
+                "en": "Those redcoats don’t want it with me",
+                "zh": "那些红衣兵可不想惹我"
+              },
+              {
+                "start": 10.5,
+                "end": 13.4,
+                "en": "’Cause I will pop-chick-a pop these cops ’til I’m free!",
+                "zh": "我要砰砰几枪撂倒这些兵，直到赢得自由！"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Lafayette",
+          "name": "拉法耶特侯爵",
+          "english": "Marquis de Lafayette",
+          "sentences": [
+            "从法国来到美国的青年军官，也是 Hamilton 的亲密战友。",
+            "在约克镇战役中，他与 Hamilton 并肩作战，争取独立。"
+          ],
+          "asset": "cast/Lafayette.glb",
+          "bounds": {
+            "min": [
+              -0.6276665925979614,
+              -6.1422587016579655e-09,
+              -0.5296720266342163
+            ],
+            "max": [
+              0.6276668310165405,
+              1.8569256067276,
+              0.26316002011299133
+            ]
+          },
+          "position": [
+            -2.3,
+            0.04,
+            -1.15
+          ],
+          "facing": 30,
+          "music": {
+            "id": "1776-lafayette",
+            "song": "Aaron Burr, Sir",
+            "file": "audio/1776-lafayette.m4a",
+            "duration": 11.7,
+            "singers": [
+              "Lafayette"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 3,
+                "en": "Oui oui, mon ami, je m’appelle Lafayette",
+                "zh": "是的，朋友，我叫拉法耶特"
+              },
+              {
+                "start": 3,
+                "end": 5.8,
+                "en": "The Lancelot of the revolutionary set",
+                "zh": "革命者中的兰斯洛特骑士"
+              },
+              {
+                "start": 5.8,
+                "end": 8.3,
+                "en": "I came from afar just to say bonsoir",
+                "zh": "我远道而来，只为道一声晚安"
+              },
+              {
+                "start": 8.3,
+                "end": 9.7,
+                "en": "Tell the king “Casse-toi!”",
+                "zh": "告诉国王：“滚蛋！”"
+              },
+              {
+                "start": 9.7,
+                "end": 10.55,
+                "en": "Who’s the best?",
+                "zh": "谁最棒？"
+              },
+              {
+                "start": 10.55,
+                "end": 11.7,
+                "en": "C’est moi!",
+                "zh": "就是我！"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Mulligan",
+          "name": "赫丘利斯·穆里根",
+          "english": "Hercules Mulligan",
+          "sentences": [
+            "Hamilton 的革命伙伴，以裁缝的身份接近英军。",
+            "他暗中搜集情报，为朋友们的战斗提供帮助。"
+          ],
+          "asset": "cast/Mulligan.glb",
+          "bounds": {
+            "min": [
+              -0.615359365940094,
+              0.0,
+              -0.2586863040924072
+            ],
+            "max": [
+              0.6153597831726074,
+              1.815000057220459,
+              0.28999990224838257
+            ]
+          },
+          "position": [
+            -0.7,
+            0.04,
+            -1.7
+          ],
+          "facing": 10,
+          "music": {
+            "id": "1776-mulligan",
+            "song": "Aaron Burr, Sir",
+            "file": "audio/1776-mulligan.m4a",
+            "duration": 12.5,
+            "singers": [
+              "Mulligan"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 0.9,
+                "en": "Brrah brrah!",
+                "zh": "布啦，布啦！"
+              },
+              {
+                "start": 0.9,
+                "end": 2.6,
+                "en": "I am Hercules Mulligan",
+                "zh": "我就是赫拉克勒斯·穆里根"
+              },
+              {
+                "start": 2.6,
+                "end": 3.5,
+                "en": "Up in it, lovin’ it",
+                "zh": "乐在其中，爱极了这一切"
+              },
+              {
+                "start": 3.5,
+                "end": 5.9,
+                "en": "Yes, I heard ya mother said “Come again?”",
+                "zh": "我听见你妈说：“再来一次？”"
+              },
+              {
+                "start": 6.6,
+                "end": 9.25,
+                "en": "Lock up ya daughters and horses, of course",
+                "zh": "当然，把你们的女儿和马都关好"
+              },
+              {
+                "start": 9.25,
+                "end": 10.7,
+                "en": "It’s hard to have intercourse",
+                "zh": "想做爱可真难"
+              },
+              {
+                "start": 10.7,
+                "end": 12.5,
+                "en": "Over four sets of corsets",
+                "zh": "隔着四层紧身衣"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Angelica",
+          "name": "安杰莉卡·斯凯勒",
+          "english": "Angelica Schuyler",
+          "sentences": [
+            "斯凯勒三姐妹中的长姐，聪慧敏锐，渴望与思想相投的人交流。",
+            "她与 Hamilton 彼此欣赏，同时始终牵挂妹妹 Eliza 的幸福。"
+          ],
+          "asset": "cast/Angelica.glb",
+          "bounds": {
+            "min": [
+              -0.6153597235679626,
+              -1.5497207961345794e-09,
+              -0.30000004172325134
+            ],
+            "max": [
+              0.6153597235679626,
+              1.9049999713897705,
+              0.30000004172325134
+            ]
+          },
+          "position": [
+            -5.1,
+            0.04,
+            1.1
+          ],
+          "facing": 15,
+          "music": {
+            "id": "1776-angelica",
+            "song": "The Schuyler Sisters",
+            "file": "audio/1776-angelica.m4a",
+            "duration": 19.9,
+            "singers": [
+              "Angelica"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2.6,
+                "en": "I’ve been reading Common Sense by Thomas Paine",
+                "zh": "我一直在读托马斯·潘恩的《常识》"
+              },
+              {
+                "start": 2.6,
+                "end": 4.95,
+                "en": "So men say that I’m intense or I’m insane",
+                "zh": "于是男人们说我太激进，或是疯了"
+              },
+              {
+                "start": 4.95,
+                "end": 6.15,
+                "en": "You want a revolution?",
+                "zh": "你想要一场革命？"
+              },
+              {
+                "start": 6.15,
+                "end": 7.35,
+                "en": "I want a revelation",
+                "zh": "我要的是思想的觉醒"
+              },
+              {
+                "start": 7.35,
+                "end": 9.65,
+                "en": "So listen to my declaration:",
+                "zh": "那就听听我的宣言："
+              },
+              {
+                "start": 9.65,
+                "end": 12,
+                "en": "We hold these truths to be self-evident",
+                "zh": "我们认为这些真理不言而喻"
+              },
+              {
+                "start": 12,
+                "end": 14.35,
+                "en": "That all men are created equal",
+                "zh": "人人生而平等"
+              },
+              {
+                "start": 14.35,
+                "end": 16.7,
+                "en": "And when I meet Thomas Jefferson (unh!)",
+                "zh": "等我见到托马斯·杰斐逊——哼！"
+              },
+              {
+                "start": 16.7,
+                "end": 19.45,
+                "en": "I’mma compel him to include women in the sequel!",
+                "zh": "我要让他在续篇中把女性也写进去！"
+              },
+              {
+                "start": 19.45,
+                "end": 19.9,
+                "en": "Work!",
+                "zh": "行动起来！"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Eliza",
+          "name": "伊莱莎·斯凯勒",
+          "english": "Eliza Schuyler",
+          "sentences": [
+            "斯凯勒三姐妹中的二姐，在舞会上与 Hamilton 相爱。",
+            "她珍视家人与陪伴，也在后来努力保存并讲述他的故事。"
+          ],
+          "asset": "cast/Eliza.glb",
+          "bounds": {
+            "min": [
+              -0.6153596043586731,
+              -1.5497207961345794e-09,
+              -0.3399999439716339
+            ],
+            "max": [
+              0.6153595447540283,
+              1.8000000715255737,
+              0.30000004172325134
+            ]
+          },
+          "position": [
+            -3.9,
+            0.04,
+            1.3
+          ],
+          "facing": 10,
+          "music": {
+            "id": "1776-eliza",
+            "song": "The Schuyler Sisters",
+            "file": "audio/1776-eliza.m4a",
+            "duration": 20.5,
+            "singers": [
+              "Eliza",
+              "Angelica",
+              "Peggy"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 4.4,
+                "en": "Look around, look around at how lucky we are to be alive right now",
+                "zh": "看看四周，能活在此刻，我们何其幸运"
+              },
+              {
+                "start": 4.4,
+                "end": 8.8,
+                "en": "Look around, look around at how lucky we are to be alive right now",
+                "zh": "看看四周，能活在此刻，我们何其幸运"
+              },
+              {
+                "start": 8.8,
+                "end": 13.2,
+                "en": "History is happening in Manhattan and we just happen to be",
+                "zh": "历史正在曼哈顿发生，而我们恰好身在其中"
+              },
+              {
+                "start": 13.2,
+                "end": 16.2,
+                "en": "In the greatest city in the world!",
+                "zh": "就在这世上最伟大的城市！"
+              },
+              {
+                "start": 16.2,
+                "end": 18.5,
+                "en": "In the greatest city in the world!",
+                "zh": "就在这世上最伟大的城市！"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Peggy",
+          "name": "佩姬·斯凯勒",
+          "english": "Peggy Schuyler",
+          "sentences": [
+            "斯凯勒三姐妹中的小妹，与姐姐们一起探索热闹的纽约。",
+            "在姐妹们兴奋谈论革命时，她提醒大家父亲的叮嘱。"
+          ],
+          "asset": "cast/Peggy.glb",
+          "bounds": {
+            "min": [
+              -0.5968987345695496,
+              -1.7344952141229442e-09,
+              -0.29100003838539124
+            ],
+            "max": [
+              0.5968989729881287,
+              1.8963500261306763,
+              0.29100003838539124
+            ]
+          },
+          "position": [
+            -2.7,
+            0.04,
+            1.5
+          ],
+          "facing": 5,
+          "music": {
+            "id": "1776-peggy",
+            "song": "The Schuyler Sisters",
+            "file": "audio/1776-peggy.m4a",
+            "duration": 8.617,
+            "singers": [
+              "Peggy",
+              "Angelica",
+              "Eliza"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.25,
+                "en": "Angelica!",
+                "zh": "安杰莉卡！"
+              },
+              {
+                "start": 1.25,
+                "end": 2.25,
+                "en": "Work, work!",
+                "zh": "动起来，动起来！"
+              },
+              {
+                "start": 2.25,
+                "end": 3.25,
+                "en": "Eliza!",
+                "zh": "伊莱莎！"
+              },
+              {
+                "start": 3.25,
+                "end": 3.5,
+                "en": "Work, work!",
+                "zh": "动起来，动起来！"
+              },
+              {
+                "start": 3.5,
+                "end": 4,
+                "en": "And Peggy!",
+                "zh": "还有佩姬！"
+              },
+              {
+                "start": 4,
+                "end": 4.5,
+                "en": "Work, work!",
+                "zh": "动起来，动起来！"
+              },
+              {
+                "start": 4.5,
+                "end": 6,
+                "en": "The Schuyler sisters!",
+                "zh": "斯凯勒姐妹！"
+              },
+              {
+                "start": 6,
+                "end": 6.75,
+                "en": "Angelica!",
+                "zh": "安杰莉卡！"
+              },
+              {
+                "start": 6.75,
+                "end": 7,
+                "en": "Peggy!",
+                "zh": "佩姬！"
+              },
+              {
+                "start": 7,
+                "end": 7.75,
+                "en": "Eliza!",
+                "zh": "伊莱莎！"
+              },
+              {
+                "start": 7.75,
+                "end": 8.616667,
+                "en": "Work!",
+                "zh": "动起来！"
+              }
+            ]
+          }
+        },
+        {
+          "role": "GeorgeIII",
+          "name": "乔治三世",
+          "english": "King George III",
+          "sentences": [
+            "英国国王，把殖民地争取独立看作一场对自己的背叛。",
+            "他用甜蜜又带威胁的歌声，坚信离去的人终将回到身边。"
+          ],
+          "asset": "cast/GeorgeIII.glb",
+          "bounds": {
+            "min": [
+              -0.6153594851493835,
+              -6.541609565147155e-08,
+              -0.3250000476837158
+            ],
+            "max": [
+              0.6153595447540283,
+              1.9700000286102295,
+              0.2633054554462433
+            ]
+          },
+          "position": [
+            3,
+            2.76,
+            -4.8
+          ],
+          "facing": 0,
+          "music": {
+            "id": "1776-georgeiii",
+            "song": "You'll Be Back",
+            "file": "audio/1776-georgeiii.m4a",
+            "duration": 33.98,
+            "singers": [
+              "GeorgeIII"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 0.5,
+                "en": "Remember, despite our estrangement,\nI'm your man",
+                "zh": "记住，即使我们渐行渐远，我仍是你的归属"
+              },
+              {
+                "start": 0.5,
+                "end": 2.5,
+                "en": "You'll be back",
+                "zh": "你会回来的"
+              },
+              {
+                "start": 2.5,
+                "end": 4.25,
+                "en": "Soon you'll see",
+                "zh": "很快你就会明白"
+              },
+              {
+                "start": 4.25,
+                "end": 8.5,
+                "en": "You'll remember you belong to me",
+                "zh": "你会记起，你属于我"
+              },
+              {
+                "start": 8.5,
+                "end": 10.5,
+                "en": "You'll be back",
+                "zh": "你会回来的"
+              },
+              {
+                "start": 10.5,
+                "end": 12.25,
+                "en": "Time will tell",
+                "zh": "时间会证明一切"
+              },
+              {
+                "start": 12.25,
+                "end": 16,
+                "en": "You'll remember that I served you well",
+                "zh": "你会记起，我曾待你不薄"
+              },
+              {
+                "start": 16,
+                "end": 18.5,
+                "en": "Oceans rise",
+                "zh": "海水上涨"
+              },
+              {
+                "start": 18.5,
+                "end": 20.25,
+                "en": "Empires fall",
+                "zh": "帝国倾覆"
+              },
+              {
+                "start": 20.25,
+                "end": 24,
+                "en": "We have seen each other through it all",
+                "zh": "我们曾相伴走过这一切"
+              },
+              {
+                "start": 24,
+                "end": 26.25,
+                "en": "And when push",
+                "zh": "而当局势"
+              },
+              {
+                "start": 26.25,
+                "end": 28,
+                "en": "Comes to shove",
+                "zh": "到了紧要关头"
+              },
+              {
+                "start": 28,
+                "end": 32.25,
+                "en": "I will send a fully armed battalion",
+                "zh": "我会派出一整个全副武装的营"
+              },
+              {
+                "start": 32.25,
+                "end": 33.75,
+                "en": "To remind you of my love!",
+                "zh": "提醒你，我有多爱你！"
+              },
+              {
+                "start": 33.75,
+                "end": 33.98,
+                "en": "Da da da dat da dat da da da",
+                "zh": "哒哒哒，哒哒哒……"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "year": 1780,
+      "actors": [
+        {
+          "role": "Hamilton",
+          "name": "亚历山大·汉密尔顿",
+          "english": "Alexander Hamilton",
+          "sentences": [
+            "在冬季舞会上，他与伊莱莎相识并坠入爱河。",
+            "婚姻给他带来新的家庭，革命与建功立业的志向仍在心中。"
+          ],
+          "asset": "cast/Hamilton.glb",
+          "bounds": {
+            "min": [
+              -0.6153596019744874,
+              1.4305114759416426e-08,
+              -0.5192862749099731
+            ],
+            "max": [
+              0.6153596019744874,
+              1.8000000715255737,
+              0.25800004601478577
+            ]
+          },
+          "position": [
+            0,
+            0.04,
+            2.6
+          ],
+          "facing": 0,
+          "music": {
+            "id": "1780-hamilton",
+            "song": "Helpless",
+            "file": "audio/1780-hamilton.m4a",
+            "duration": 19.6,
+            "singers": [
+              "Hamilton"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2.9,
+                "en": "Eliza, I don’t have a dollar to my name",
+                "zh": "伊莱莎，我名下连一美元都没有"
+              },
+              {
+                "start": 2.9,
+                "end": 5.8,
+                "en": "An acre of land, a troop to command, a dollop of fame",
+                "zh": "没有土地，没有军队可统领，也没有半点名气"
+              },
+              {
+                "start": 5.8,
+                "end": 8.7,
+                "en": "All I have’s my honor, a tolerance for pain",
+                "zh": "我只有荣誉，以及忍受痛苦的本事"
+              },
+              {
+                "start": 8.7,
+                "end": 11.6,
+                "en": "A couple of college credits and my top-notch brain",
+                "zh": "一点大学学分，和一颗顶尖的脑袋"
+              },
+              {
+                "start": 11.6,
+                "end": 14.5,
+                "en": "Insane, your family brings out a different side of me",
+                "zh": "真不可思议，你家人让我显露出不同的一面"
+              },
+              {
+                "start": 14.5,
+                "end": 17.4,
+                "en": "Peggy confides in me, Angelica tried to take a bite of me",
+                "zh": "佩姬向我倾诉，安吉莉卡还想咬我一口"
+              },
+              {
+                "start": 17.4,
+                "end": 19.6,
+                "en": "No stress, my love for you is never in doubt",
+                "zh": "别担心，我对你的爱从不动摇"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Eliza",
+          "name": "伊莱莎·斯凯勒",
+          "english": "Eliza Schuyler",
+          "sentences": [
+            "斯凯勒三姐妹中的二姐，在舞会上与 Hamilton 相爱。",
+            "她珍视家人与陪伴，也在后来努力保存并讲述他的故事。"
+          ],
+          "asset": "cast/Eliza.glb",
+          "bounds": {
+            "min": [
+              -0.6153596043586731,
+              -1.5497207961345794e-09,
+              -0.3399999439716339
+            ],
+            "max": [
+              0.6153595447540283,
+              1.8000000715255737,
+              0.30000004172325134
+            ]
+          },
+          "position": [
+            -0.95,
+            0.04,
+            0.55
+          ],
+          "facing": 35,
+          "music": {
+            "id": "1780-eliza",
+            "song": "Helpless",
+            "file": "audio/1780-eliza.m4a",
+            "duration": 32.5,
+            "singers": [
+              "Eliza"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 3,
+                "en": "I have never been the type to try and grab the spotlight",
+                "zh": "我从来不是那种爱抢风头的人"
+              },
+              {
+                "start": 3,
+                "end": 6,
+                "en": "We were at a revel with some rebels on a hot night",
+                "zh": "那个燥热的夜晚，我们与革命者一起欢聚"
+              },
+              {
+                "start": 6,
+                "end": 9,
+                "en": "Laughin’ at my sister as she’s dazzling the room",
+                "zh": "姐姐艳惊四座，我望着她笑了"
+              },
+              {
+                "start": 9,
+                "end": 12,
+                "en": "Then you walked in and my heart went “boom”",
+                "zh": "然后你走了进来，我的心怦然一动"
+              },
+              {
+                "start": 12,
+                "end": 15,
+                "en": "Tryin’ to catch your eye from the side of the ballroom",
+                "zh": "我在舞厅一侧，试着吸引你的目光"
+              },
+              {
+                "start": 15,
+                "end": 18,
+                "en": "Everybody’s dancin’ and the band’s top volume",
+                "zh": "众人翩翩起舞，乐队奏得热烈响亮"
+              },
+              {
+                "start": 18,
+                "end": 20.9,
+                "en": "Grind to the rhythm as we wine and dine",
+                "zh": "我们饮酒用餐，随着节奏摇摆"
+              },
+              {
+                "start": 20.9,
+                "end": 24.4,
+                "en": "Grab my sister and whisper, “Yo, this one’s mine.”",
+                "zh": "我拉住姐姐，悄声说：“嘿，这个归我。”"
+              },
+              {
+                "start": 24.4,
+                "end": 27.7,
+                "en": "My sister made her way across the room to you",
+                "zh": "姐姐穿过舞厅，朝你走去"
+              },
+              {
+                "start": 27.7,
+                "end": 31.5,
+                "en": "And I got nervous, thinking “What’s she gonna do?”",
+                "zh": "我紧张起来，心想：“她要做什么？”"
+              },
+              {
+                "start": 31.5,
+                "end": 32.5,
+                "en": "She grabbed you by the arm, I’m thinkin’ “I’m through”",
+                "zh": "她挽住你的胳膊，我心想：“我没戏了。”"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Angelica",
+          "name": "安杰莉卡·斯凯勒",
+          "english": "Angelica Schuyler",
+          "sentences": [
+            "斯凯勒三姐妹中的长姐，聪慧敏锐，渴望与思想相投的人交流。",
+            "她与 Hamilton 彼此欣赏，同时始终牵挂妹妹 Eliza 的幸福。"
+          ],
+          "asset": "cast/Angelica.glb",
+          "bounds": {
+            "min": [
+              -0.6153597235679626,
+              -1.5497207961345794e-09,
+              -0.30000004172325134
+            ],
+            "max": [
+              0.6153597235679626,
+              1.9049999713897705,
+              0.30000004172325134
+            ]
+          },
+          "position": [
+            -2.7,
+            0.04,
+            -0.35
+          ],
+          "facing": 30,
+          "music": {
+            "id": "1780-angelica",
+            "song": "Satisfied",
+            "file": "audio/1780-angelica.m4a",
+            "duration": 32,
+            "singers": [
+              "Angelica"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 0.8,
+                "en": "Number three",
+                "zh": "第三"
+              },
+              {
+                "start": 0.8,
+                "end": 4,
+                "en": "I know my sister like I know my own mind",
+                "zh": "我像了解自己一样了解妹妹"
+              },
+              {
+                "start": 4,
+                "end": 7.2,
+                "en": "You will never find anyone as trusting or as kind",
+                "zh": "你再也找不到像她这样信任别人、这样善良的人"
+              },
+              {
+                "start": 7.2,
+                "end": 10.4,
+                "en": "If I tell her that I love him, she’d be silently resigned",
+                "zh": "若我告诉她我爱他，她会默默退让"
+              },
+              {
+                "start": 10.4,
+                "end": 11.8,
+                "en": "He’d be mine",
+                "zh": "他就会属于我"
+              },
+              {
+                "start": 11.8,
+                "end": 13.5,
+                "en": "She would say, “I’m fine”",
+                "zh": "她会说：“我没事。”"
+              },
+              {
+                "start": 13.5,
+                "end": 16,
+                "en": "She’d be lying",
+                "zh": "可那是违心的话"
+              },
+              {
+                "start": 16,
+                "end": 19,
+                "en": "But when I fantasize at night",
+                "zh": "可每当我在夜里幻想"
+              },
+              {
+                "start": 19,
+                "end": 21,
+                "en": "It’s Alexander’s eyes",
+                "zh": "浮现的都是亚历山大的眼睛"
+              },
+              {
+                "start": 21,
+                "end": 25,
+                "en": "As I romanticize what might have been",
+                "zh": "我将本可能发生的一切想得那样美好"
+              },
+              {
+                "start": 25,
+                "end": 28.3,
+                "en": "If I hadn’t sized him up so quickly",
+                "zh": "若我当初没那么快权衡他的条件"
+              },
+              {
+                "start": 28.3,
+                "end": 32,
+                "en": "At least my dear Eliza’s his wife",
+                "zh": "至少，亲爱的伊莱莎成了他的妻子"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Peggy",
+          "name": "佩姬·斯凯勒",
+          "english": "Peggy Schuyler",
+          "sentences": [
+            "斯凯勒三姐妹中的小妹，与姐姐们一起探索热闹的纽约。",
+            "在姐妹们兴奋谈论革命时，她提醒大家父亲的叮嘱。"
+          ],
+          "asset": "cast/Peggy.glb",
+          "bounds": {
+            "min": [
+              -0.5968987345695496,
+              -1.7344952141229442e-09,
+              -0.29100003838539124
+            ],
+            "max": [
+              0.5968989729881287,
+              1.8963500261306763,
+              0.29100003838539124
+            ]
+          },
+          "position": [
+            -4.1,
+            0.04,
+            -1.2
+          ],
+          "facing": 20,
+          "music": {
+            "id": "1780-peggy",
+            "song": "Helpless",
+            "file": "audio/1780-peggy.m4a",
+            "duration": 29,
+            "singers": [
+              "Peggy",
+              "Eliza",
+              "Angelica",
+              "Hamilton"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.7,
+                "en": "Eliza…",
+                "zh": "伊莱莎……"
+              },
+              {
+                "start": 1.7,
+                "end": 4.8,
+                "en": "I’ve never felt so—",
+                "zh": "我从未如此——"
+              },
+              {
+                "start": 4.8,
+                "end": 7.8,
+                "en": "Helpless!",
+                "zh": "为爱沦陷！"
+              },
+              {
+                "start": 7.8,
+                "end": 12,
+                "en": "My life is gon’ be fine cuz Eliza’s in it",
+                "zh": "有伊莱莎在，我的人生一定会很好"
+              },
+              {
+                "start": 12,
+                "end": 14.6,
+                "en": "Look into your eyes",
+                "zh": "望进你的眼睛"
+              },
+              {
+                "start": 14.6,
+                "end": 18,
+                "en": "And the sky’s the limit",
+                "zh": "未来仿佛没有边际"
+              },
+              {
+                "start": 18,
+                "end": 26.8,
+                "en": "Helpless!",
+                "zh": "为爱沦陷！"
+              },
+              {
+                "start": 26.8,
+                "end": 29,
+                "en": "In New York, you can be a new man",
+                "zh": "在纽约，你能成为全新的自己"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Burr",
+          "name": "阿伦·伯尔",
+          "english": "Aaron Burr",
+          "sentences": [
+            "Hamilton 在纽约结识的律师，处事谨慎，习惯等待时机。",
+            "两人的政治道路逐渐分岔，友谊也慢慢转为竞争。"
+          ],
+          "asset": "cast/Burr.glb",
+          "bounds": {
+            "min": [
+              -0.6153594255447388,
+              2.1755695023273347e-09,
+              -0.28830569982528687
+            ],
+            "max": [
+              0.6153596639633179,
+              1.8000000715255737,
+              0.2580000162124634
+            ]
+          },
+          "position": [
+            3.2,
+            0.04,
+            -0.7
+          ],
+          "facing": -35,
+          "music": {
+            "id": "1780-burr",
+            "song": "A Winter's Ball",
+            "file": "audio/1780-burr.m4a",
+            "duration": 12.1,
+            "singers": [
+              "Burr"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2.5,
+                "en": "1780",
+                "zh": "一七八〇年"
+              },
+              {
+                "start": 2.5,
+                "end": 4.5,
+                "en": "A winter’s ball",
+                "zh": "一场冬日舞会"
+              },
+              {
+                "start": 4.5,
+                "end": 8.1,
+                "en": "And the Schuyler sisters are the envy of all",
+                "zh": "斯凯勒姐妹令所有人艳羡"
+              },
+              {
+                "start": 8.1,
+                "end": 12.1,
+                "en": "Yo, if you can marry a sister, you’re rich, son",
+                "zh": "嘿，伙计，娶到她们中的一位，你就发达了"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Laurens",
+          "name": "约翰·劳伦斯",
+          "english": "John Laurens",
+          "sentences": [
+            "Hamilton 的革命伙伴，热情勇敢，主张废除奴隶制。",
+            "他与朋友们共同投身独立战争，梦想让自由属于更多人。"
+          ],
+          "asset": "cast/Laurens.glb",
+          "bounds": {
+            "min": [
+              -0.6153596043586731,
+              2.1755695023273347e-09,
+              -0.5192862153053284
+            ],
+            "max": [
+              0.6153596043586731,
+              1.8000000715255737,
+              0.25800007581710815
+            ]
+          },
+          "position": [
+            1.7,
+            0.04,
+            -2.25
+          ],
+          "facing": -10,
+          "music": {
+            "id": "1780-laurens",
+            "song": "A Winter's Ball",
+            "file": "audio/1780-laurens.m4a",
+            "duration": 9.3,
+            "singers": [
+              "Hamilton",
+              "Burr",
+              "Laurens"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 3.1,
+                "en": "Is it a question of if, Burr, or which one?",
+                "zh": "伯尔，该问的是能不能娶到，还是娶哪一位？"
+              },
+              {
+                "start": 3.1,
+                "end": 6.2,
+                "en": "Hey! Hey! Hey, hey!",
+                "zh": "嘿！嘿！嘿，嘿！"
+              },
+              {
+                "start": 6.2,
+                "end": 9.3,
+                "en": "Hey! Hey! Hey, hey!",
+                "zh": "嘿！嘿！嘿，嘿！"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "year": 1781,
+      "actors": [
+        {
+          "role": "Hamilton",
+          "name": "亚历山大·汉密尔顿",
+          "english": "Alexander Hamilton",
+          "sentences": [
+            "他重新获得华盛顿的信任，率军投入约克镇战役。",
+            "他与拉法耶特及战友并肩作战，同时盼望回家见到妻子和孩子。"
+          ],
+          "asset": "cast/Hamilton.glb",
+          "bounds": {
+            "min": [
+              -0.6153596019744874,
+              1.4305114759416426e-08,
+              -0.5192862749099731
+            ],
+            "max": [
+              0.6153596019744874,
+              1.8000000715255737,
+              0.25800004601478577
+            ]
+          },
+          "position": [
+            0,
+            0.04,
+            2.6
+          ],
+          "facing": 0,
+          "music": {
+            "id": "1781-hamilton",
+            "song": "Yorktown (The World Turned Upside Down)",
+            "file": "audio/1781-hamilton.m4a",
+            "duration": 20.8,
+            "singers": [
+              "Hamilton"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.35,
+                "en": "Take the bullets out your gun!",
+                "zh": "把枪里的子弹取出来！"
+              },
+              {
+                "start": 1.35,
+                "end": 1.7,
+                "en": "What?",
+                "zh": "什么？"
+              },
+              {
+                "start": 1.7,
+                "end": 3.05,
+                "en": "The bullets out your gun!",
+                "zh": "把枪里的子弹取出来！"
+              },
+              {
+                "start": 3.05,
+                "end": 3.4,
+                "en": "What?",
+                "zh": "什么？"
+              },
+              {
+                "start": 3.4,
+                "end": 5.65,
+                "en": "We move under cover and we move as one",
+                "zh": "我们隐蔽前进，行动如同一人"
+              },
+              {
+                "start": 5.65,
+                "end": 8.1,
+                "en": "Through the night, we have one shot to live another day",
+                "zh": "穿过黑夜，只有这次机会能让我们活到明天"
+              },
+              {
+                "start": 8.1,
+                "end": 10.25,
+                "en": "We cannot let a stray gunshot give us away",
+                "zh": "绝不能让一声走火暴露我们的行踪"
+              },
+              {
+                "start": 10.25,
+                "end": 12.5,
+                "en": "We will fight up close, seize the moment and stay in it",
+                "zh": "我们要近身搏斗，抓住时机，坚持到底"
+              },
+              {
+                "start": 12.5,
+                "end": 14.75,
+                "en": "It’s either that or meet the business end of a bayonet",
+                "zh": "不然，迎接我们的就是敌人的刺刀尖"
+              },
+              {
+                "start": 14.75,
+                "end": 16.9,
+                "en": "The code word is “Ro-Sham-Bo,” dig me?",
+                "zh": "暗号是“罗尚博”，听明白了吗？"
+              },
+              {
+                "start": 16.9,
+                "end": 17.6,
+                "en": "Ro-Sham-Bo!",
+                "zh": "罗尚博！"
+              },
+              {
+                "start": 17.6,
+                "end": 20.8,
+                "en": "You have your orders now, go, men, go!",
+                "zh": "命令已下，弟兄们，出发！"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Lafayette",
+          "name": "拉法耶特侯爵",
+          "english": "Marquis de Lafayette",
+          "sentences": [
+            "从法国来到美国的青年军官，也是 Hamilton 的亲密战友。",
+            "在约克镇战役中，他与 Hamilton 并肩作战，争取独立。"
+          ],
+          "asset": "cast/Lafayette.glb",
+          "bounds": {
+            "min": [
+              -0.6276665925979614,
+              -6.1422587016579655e-09,
+              -0.5296720266342163
+            ],
+            "max": [
+              0.6276668310165405,
+              1.8569256067276,
+              0.26316002011299133
+            ]
+          },
+          "position": [
+            -1.35,
+            0.04,
+            1.2
+          ],
+          "facing": 30,
+          "music": {
+            "id": "1781-lafayette",
+            "song": "Guns and Ships",
+            "file": "audio/1781-lafayette.m4a",
+            "duration": 17.4,
+            "singers": [
+              "Lafayette"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.3,
+                "en": "I’m takin’ this horse by the reins",
+                "zh": "我勒住缰绳，驾驭这匹战马"
+              },
+              {
+                "start": 1.3,
+                "end": 2.7,
+                "en": "Makin’ redcoats redder with bloodstains",
+                "zh": "让鲜血把红衣兵的军服染得更红"
+              },
+              {
+                "start": 2.7,
+                "end": 3.3,
+                "en": "Lafayette!",
+                "zh": "拉法耶特！"
+              },
+              {
+                "start": 3.3,
+                "end": 4.9,
+                "en": "And I’m never gonna stop until I make ’em drop",
+                "zh": "不把他们打倒，我绝不停手"
+              },
+              {
+                "start": 4.9,
+                "end": 6.5,
+                "en": "And burn ’em up and scatter their remains, I’m",
+                "zh": "将他们烧尽，扬散残骸，我就是——"
+              },
+              {
+                "start": 6.5,
+                "end": 7.1,
+                "en": "Lafayette!",
+                "zh": "拉法耶特！"
+              },
+              {
+                "start": 7.1,
+                "end": 9.1,
+                "en": "Watch me engagin’ em! Escapin’ em! Enragin’ em! I’m—",
+                "zh": "看我迎击他们！甩脱他们！激怒他们！我就是——"
+              },
+              {
+                "start": 9.1,
+                "end": 9.7,
+                "en": "Lafayette!",
+                "zh": "拉法耶特！"
+              },
+              {
+                "start": 9.7,
+                "end": 11.05,
+                "en": "I go to France for more funds",
+                "zh": "我去法国争取更多军费"
+              },
+              {
+                "start": 11.05,
+                "end": 11.65,
+                "en": "Lafayette!",
+                "zh": "拉法耶特！"
+              },
+              {
+                "start": 11.65,
+                "end": 12.5,
+                "en": "I come back with more",
+                "zh": "归来时带回更多的——"
+              },
+              {
+                "start": 12.5,
+                "end": 13.7,
+                "en": "Guns and ships",
+                "zh": "枪炮和战舰"
+              },
+              {
+                "start": 13.7,
+                "end": 15.1,
+                "en": "And so the balance shifts",
+                "zh": "战局的天平就此倾斜"
+              },
+              {
+                "start": 15.1,
+                "end": 17.4,
+                "en": "We rendezvous with Rochambeau, consolidate their gifts",
+                "zh": "我们与罗尚博会师，整合法国带来的援助"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Washington",
+          "name": "乔治·华盛顿",
+          "english": "George Washington",
+          "sentences": [
+            "大陆军统帅，也是 Hamilton 敬重的领袖与导师。",
+            "他先让 Hamilton 担任助手，后来又邀请他参与新国家的治理。"
+          ],
+          "asset": "cast/Washington.glb",
+          "bounds": {
+            "min": [
+              -0.6399739980697632,
+              -1.7344952141229442e-09,
+              -0.29983779788017273
+            ],
+            "max": [
+              0.6399739384651184,
+              1.871999979019165,
+              0.26832008361816406
+            ]
+          },
+          "position": [
+            0,
+            0.04,
+            -2.7
+          ],
+          "facing": 0,
+          "music": {
+            "id": "1781-washington",
+            "song": "History Has Its Eyes on You",
+            "file": "audio/1781-washington.m4a",
+            "duration": 25.7,
+            "singers": [
+              "Washington"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2.65,
+                "en": "I was younger than you are now",
+                "zh": "那时的我，比现在的你还年轻"
+              },
+              {
+                "start": 2.65,
+                "end": 5.25,
+                "en": "When I was given my first command",
+                "zh": "那是我第一次受命领军"
+              },
+              {
+                "start": 5.25,
+                "end": 7.95,
+                "en": "I led my men straight into a massacre",
+                "zh": "我带着部下，一头闯进了一场屠杀"
+              },
+              {
+                "start": 7.95,
+                "end": 10.7,
+                "en": "I witnessed their deaths firsthand",
+                "zh": "我亲眼看着他们死去"
+              },
+              {
+                "start": 10.7,
+                "end": 13.05,
+                "en": "I made every mistake",
+                "zh": "我犯尽了所有错误"
+              },
+              {
+                "start": 13.05,
+                "end": 15.7,
+                "en": "I felt the shame rise in me",
+                "zh": "羞愧涌上了心头"
+              },
+              {
+                "start": 15.7,
+                "end": 18.4,
+                "en": "And even now I lie awake",
+                "zh": "直到如今，我仍会辗转难眠"
+              },
+              {
+                "start": 18.4,
+                "end": 25.7,
+                "en": "Knowing history has its eyes on me",
+                "zh": "因为我知道，历史正注视着我"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Laurens",
+          "name": "约翰·劳伦斯",
+          "english": "John Laurens",
+          "sentences": [
+            "Hamilton 的革命伙伴，热情勇敢，主张废除奴隶制。",
+            "他与朋友们共同投身独立战争，梦想让自由属于更多人。"
+          ],
+          "asset": "cast/Laurens.glb",
+          "bounds": {
+            "min": [
+              -0.6153596043586731,
+              2.1755695023273347e-09,
+              -0.5192862153053284
+            ],
+            "max": [
+              0.6153596043586731,
+              1.8000000715255737,
+              0.25800007581710815
+            ]
+          },
+          "position": [
+            2.5,
+            0.04,
+            -0.4
+          ],
+          "facing": -25,
+          "music": {
+            "id": "1781-laurens",
+            "song": "Yorktown (The World Turned Upside Down)",
+            "file": "audio/1781-laurens.m4a",
+            "duration": 17.5,
+            "singers": [
+              "Laurens"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2,
+                "en": "You have your orders now, go, men, go!",
+                "zh": "命令已下，弟兄们，出发！"
+              },
+              {
+                "start": 2,
+                "end": 4.3,
+                "en": "And so the American experiment begins",
+                "zh": "美利坚的实验就这样开始了"
+              },
+              {
+                "start": 4.3,
+                "end": 6.6,
+                "en": "With my friends all scattered to the winds",
+                "zh": "我的朋友们奔赴四方"
+              },
+              {
+                "start": 6.6,
+                "end": 9.1,
+                "en": "Laurens is in South Carolina, redefining bravery",
+                "zh": "劳伦斯身在南卡罗来纳，重新诠释着勇敢"
+              },
+              {
+                "start": 9.1,
+                "end": 11.4,
+                "en": "We’ll never be free until we end slavery!",
+                "zh": "不终结奴隶制，我们就永远谈不上自由！"
+              },
+              {
+                "start": 11.4,
+                "end": 13.75,
+                "en": "When we finally drive the British away",
+                "zh": "等我们终于把英军赶走"
+              },
+              {
+                "start": 13.75,
+                "end": 16.1,
+                "en": "Lafayette is there waiting in Chesapeake Bay!",
+                "zh": "拉法耶特就在切萨皮克湾等着！"
+              },
+              {
+                "start": 16.1,
+                "end": 17.5,
+                "en": "How did we know that this plan would work?",
+                "zh": "我们怎么知道这个计划会奏效？"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Mulligan",
+          "name": "赫丘利斯·穆里根",
+          "english": "Hercules Mulligan",
+          "sentences": [
+            "Hamilton 的革命伙伴，以裁缝的身份接近英军。",
+            "他暗中搜集情报，为朋友们的战斗提供帮助。"
+          ],
+          "asset": "cast/Mulligan.glb",
+          "bounds": {
+            "min": [
+              -0.615359365940094,
+              0.0,
+              -0.2586863040924072
+            ],
+            "max": [
+              0.6153597831726074,
+              1.815000057220459,
+              0.28999990224838257
+            ]
+          },
+          "position": [
+            -3.6,
+            0.04,
+            -1.5
+          ],
+          "facing": 35,
+          "music": {
+            "id": "1781-mulligan",
+            "song": "Yorktown (The World Turned Upside Down)",
+            "file": "audio/1781-mulligan.m4a",
+            "duration": 22,
+            "singers": [
+              "Mulligan"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2.5,
+                "en": "A tailor spying on the British government",
+                "zh": "一个裁缝，暗中刺探英国政府的情报"
+              },
+              {
+                "start": 2.5,
+                "end": 5.15,
+                "en": "I take their measurements, information and then I smuggle it",
+                "zh": "我为他们量尺寸、套情报，再把情报偷偷送出"
+              },
+              {
+                "start": 5.15,
+                "end": 7.55,
+                "en": "To my brother’s revolutionary covenant",
+                "zh": "送到我兄弟的革命同盟手中"
+              },
+              {
+                "start": 7.55,
+                "end": 10.1,
+                "en": "I’m runnin’ with the Sons of Liberty and I am lovin’ it!",
+                "zh": "我和自由之子并肩行动，而且乐在其中！"
+              },
+              {
+                "start": 10.1,
+                "end": 12.6,
+                "en": "See, that’s what happens when you’re up against the ruffians",
+                "zh": "瞧，惹上我们这帮狠角色，就是这个下场"
+              },
+              {
+                "start": 12.6,
+                "end": 15.1,
+                "en": "We in the shit now, somebody gotta shovel it!",
+                "zh": "眼下陷在这堆烂事里，总得有人把它铲干净！"
+              },
+              {
+                "start": 15.1,
+                "end": 17.6,
+                "en": "Hercules Mulligan, I need no introduction",
+                "zh": "赫拉克勒斯·穆里根，我无需介绍"
+              },
+              {
+                "start": 17.6,
+                "end": 20,
+                "en": "When you knock me down I get the fuck back up again!",
+                "zh": "你把我打倒，我他妈照样再站起来！"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "year": 1789,
+      "actors": [
+        {
+          "role": "Hamilton",
+          "name": "亚历山大·汉密尔顿",
+          "english": "Alexander Hamilton",
+          "sentences": [
+            "他进入华盛顿的政府，担任财政部长。",
+            "他的财政计划让新国家展开激烈争论，也使他与杰斐逊、麦迪逊成为对手。"
+          ],
+          "asset": "cast/Hamilton.glb",
+          "bounds": {
+            "min": [
+              -0.6153596019744874,
+              1.4305114759416426e-08,
+              -0.5192862749099731
+            ],
+            "max": [
+              0.6153596019744874,
+              1.8000000715255737,
+              0.25800004601478577
+            ]
+          },
+          "position": [
+            0,
+            0.04,
+            2.6
+          ],
+          "facing": 0,
+          "music": {
+            "id": "1789-hamilton",
+            "song": "Non-Stop",
+            "file": "audio/1789-hamilton.m4a",
+            "duration": 14,
+            "singers": [
+              "Washington",
+              "Hamilton"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.25,
+                "en": "Treasury or State?",
+                "zh": "财政部，还是国务部？"
+              },
+              {
+                "start": 1.25,
+                "end": 2.75,
+                "en": "I know it’s a lot to ask",
+                "zh": "我知道这要求很高"
+              },
+              {
+                "start": 2.75,
+                "end": 4,
+                "en": "Treasury or State?",
+                "zh": "财政部，还是国务部？"
+              },
+              {
+                "start": 4,
+                "end": 5.7,
+                "en": "To leave behind the world you know…",
+                "zh": "要你离开熟悉的生活……"
+              },
+              {
+                "start": 5.7,
+                "end": 8.8,
+                "en": "Sir, do you want me to run the Treasury or State department?",
+                "zh": "先生，您要我掌管财政部，还是国务部？"
+              },
+              {
+                "start": 8.8,
+                "end": 9.4,
+                "en": "Treasury",
+                "zh": "财政部"
+              },
+              {
+                "start": 9.4,
+                "end": 10.25,
+                "en": "Let’s go",
+                "zh": "那就开始吧！"
+              },
+              {
+                "start": 12.5,
+                "end": 14,
+                "en": "Alexander…",
+                "zh": "亚历山大……"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Jefferson",
+          "name": "托马斯·杰斐逊",
+          "english": "Thomas Jefferson",
+          "sentences": [
+            "从法国归来后出任国务卿，是 Hamilton 的主要政治对手。",
+            "他与 Madison 联手反对 Hamilton 的财政主张，并在大选中争夺总统之位。"
+          ],
+          "asset": "cast/Jefferson.glb",
+          "bounds": {
+            "min": [
+              -0.6153594851493835,
+              0.0,
+              -0.32668569684028625
+            ],
+            "max": [
+              0.6153594851493835,
+              1.9500000476837158,
+              0.2579999566078186
+            ]
+          },
+          "position": [
+            -2.3,
+            0.04,
+            0.5
+          ],
+          "facing": 50,
+          "music": {
+            "id": "1789-jefferson",
+            "song": "What’d I Miss",
+            "file": "audio/1789-jefferson.m4a",
+            "duration": 22,
+            "singers": [
+              "Jefferson"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.6,
+                "en": "So what’d I miss?",
+                "zh": "那么，我错过了什么？"
+              },
+              {
+                "start": 1.6,
+                "end": 3.2,
+                "en": "What’d I miss?",
+                "zh": "我错过了什么？"
+              },
+              {
+                "start": 3.2,
+                "end": 5.6,
+                "en": "Virginia, my home sweet home",
+                "zh": "弗吉尼亚，我温暖的故乡"
+              },
+              {
+                "start": 5.6,
+                "end": 8.2,
+                "en": "I wanna give you a kiss",
+                "zh": "真想献给你一个吻"
+              },
+              {
+                "start": 9.7,
+                "end": 13.2,
+                "en": "I’ve been in Paris meeting lots of different ladies",
+                "zh": "我在巴黎结识了许多不同的女士"
+              },
+              {
+                "start": 13.2,
+                "end": 16.25,
+                "en": "I guess I basic’lly missed the late eighties",
+                "zh": "看来八十年代末这几年，我基本都错过了"
+              },
+              {
+                "start": 16.25,
+                "end": 18.8,
+                "en": "I traveled the wide, wide world",
+                "zh": "我游历了这辽阔的世界"
+              },
+              {
+                "start": 18.8,
+                "end": 21.5,
+                "en": "And came back to this…",
+                "zh": "回来迎接我的，却是这一切……"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Madison",
+          "name": "詹姆斯·麦迪逊",
+          "english": "James Madison",
+          "sentences": [
+            "Jefferson 的政治盟友，与他共同反对 Hamilton 的财政计划。",
+            "他在内阁争论和总统大选中，帮助 Jefferson 争取支持。"
+          ],
+          "asset": "cast/Madison.glb",
+          "bounds": {
+            "min": [
+              -0.5907450318336487,
+              2.088546668943536e-09,
+              -0.27677348256111145
+            ],
+            "max": [
+              0.5907452702522278,
+              1.7280000448226929,
+              0.24768000841140747
+            ]
+          },
+          "position": [
+            -3.4,
+            0.04,
+            -0.8
+          ],
+          "facing": 35,
+          "music": {
+            "id": "1789-madison",
+            "song": "What’d I Miss",
+            "file": "audio/1789-madison.m4a",
+            "duration": 24,
+            "singers": [
+              "Madison"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2,
+                "en": "Thomas, we are engaged",
+                "zh": "托马斯，我们正在交战"
+              },
+              {
+                "start": 2,
+                "end": 4.4,
+                "en": "In a battle for our nation’s very soul",
+                "zh": "争夺的是我们国家的灵魂"
+              },
+              {
+                "start": 4.4,
+                "end": 7.2,
+                "en": "Can you get us out of the mess we’re in?",
+                "zh": "你能帮我们摆脱眼下的困局吗？"
+              },
+              {
+                "start": 8,
+                "end": 11,
+                "en": "Hamilton’s new financial plan is nothing less",
+                "zh": "汉密尔顿的新财政计划，说到底"
+              },
+              {
+                "start": 11,
+                "end": 13.6,
+                "en": "Than government control",
+                "zh": "就是要让政府掌控一切"
+              },
+              {
+                "start": 13.6,
+                "end": 17,
+                "en": "I’ve been fighting for the South alone",
+                "zh": "我一直孤身为南方奋战"
+              },
+              {
+                "start": 17,
+                "end": 18.8,
+                "en": "Where have you been?",
+                "zh": "你这段时间都去哪儿了？"
+              },
+              {
+                "start": 18.8,
+                "end": 21.6,
+                "en": "Uh… France.",
+                "zh": "呃……法国。"
+              },
+              {
+                "start": 21.6,
+                "end": 23,
+                "en": "We have to win",
+                "zh": "我们必须赢"
+              },
+              {
+                "start": 23,
+                "end": 24,
+                "en": "What’d I miss?",
+                "zh": "我错过了什么？"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Washington",
+          "name": "乔治·华盛顿",
+          "english": "George Washington",
+          "sentences": [
+            "大陆军统帅，也是 Hamilton 敬重的领袖与导师。",
+            "他先让 Hamilton 担任助手，后来又邀请他参与新国家的治理。"
+          ],
+          "asset": "cast/Washington.glb",
+          "bounds": {
+            "min": [
+              -0.6399739980697632,
+              -1.7344952141229442e-09,
+              -0.29983779788017273
+            ],
+            "max": [
+              0.6399739384651184,
+              1.871999979019165,
+              0.26832008361816406
+            ]
+          },
+          "position": [
+            1.4,
+            0.04,
+            -2
+          ],
+          "facing": -15,
+          "music": {
+            "id": "1789-washington",
+            "song": "Non-Stop",
+            "file": "audio/1789-washington.m4a",
+            "duration": 25,
+            "singers": [
+              "Washington",
+              "Hamilton"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2.55,
+                "en": "They are asking me to lead",
+                "zh": "他们要我领导这个国家"
+              },
+              {
+                "start": 2.55,
+                "end": 4.95,
+                "en": "I am doing the best I can",
+                "zh": "我正在竭尽所能"
+              },
+              {
+                "start": 4.95,
+                "end": 7.4,
+                "en": "To get the people that I need",
+                "zh": "寻找我所需要的人才"
+              },
+              {
+                "start": 7.4,
+                "end": 11,
+                "en": "I’m asking you to be my right hand man",
+                "zh": "我希望你成为我的得力助手"
+              },
+              {
+                "start": 11,
+                "end": 12.25,
+                "en": "Treasury or State?",
+                "zh": "财政部，还是国务部？"
+              },
+              {
+                "start": 12.25,
+                "end": 13.75,
+                "en": "I know it’s a lot to ask",
+                "zh": "我知道这要求很高"
+              },
+              {
+                "start": 13.75,
+                "end": 15,
+                "en": "Treasury or State?",
+                "zh": "财政部，还是国务部？"
+              },
+              {
+                "start": 15,
+                "end": 16.7,
+                "en": "To leave behind the world you know…",
+                "zh": "要你离开熟悉的生活……"
+              },
+              {
+                "start": 16.7,
+                "end": 19.8,
+                "en": "Sir, do you want me to run the Treasury or State department?",
+                "zh": "先生，您要我掌管财政部，还是国务部？"
+              },
+              {
+                "start": 19.8,
+                "end": 20.4,
+                "en": "Treasury",
+                "zh": "财政部"
+              },
+              {
+                "start": 20.4,
+                "end": 21.25,
+                "en": "Let’s go",
+                "zh": "那就开始吧！"
+              },
+              {
+                "start": 23.5,
+                "end": 25,
+                "en": "Alexander…",
+                "zh": "亚历山大……"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "year": 1791,
+      "actors": [
+        {
+          "role": "Hamilton",
+          "name": "亚历山大·汉密尔顿",
+          "english": "Alexander Hamilton",
+          "sentences": [
+            "在妻子离开费城期间，他与玛丽亚·雷诺兹发生婚外情。",
+            "詹姆斯·雷诺兹随后以此勒索，秘密开始威胁他的家庭和政治生涯。"
+          ],
+          "asset": "cast/Hamilton.glb",
+          "bounds": {
+            "min": [
+              -0.6153596019744874,
+              1.4305114759416426e-08,
+              -0.5192862749099731
+            ],
+            "max": [
+              0.6153596019744874,
+              1.8000000715255737,
+              0.25800004601478577
+            ]
+          },
+          "position": [
+            0,
+            0.04,
+            2.6
+          ],
+          "facing": 0,
+          "music": {
+            "id": "1791-hamilton",
+            "song": "Say No to This",
+            "file": "audio/1791-hamilton.m4a",
+            "duration": 27,
+            "singers": [
+              "Maria",
+              "Hamilton"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 0.7,
+                "en": "Hey",
+                "zh": "嘿"
+              },
+              {
+                "start": 0.7,
+                "end": 1.4,
+                "en": "Hey?",
+                "zh": "嘿？"
+              },
+              {
+                "start": 1.4,
+                "end": 3.1,
+                "en": "That’s when I began to pray",
+                "zh": "就在那时，我开始祈祷"
+              },
+              {
+                "start": 3.1,
+                "end": 4.8,
+                "en": "Lord, show me how to",
+                "zh": "上帝，请告诉我该如何"
+              },
+              {
+                "start": 4.8,
+                "end": 6.8,
+                "en": "Say no to this",
+                "zh": "拒绝这一切"
+              },
+              {
+                "start": 6.8,
+                "end": 8.2,
+                "en": "I don’t know how to",
+                "zh": "我不知道该如何"
+              },
+              {
+                "start": 8.2,
+                "end": 10,
+                "en": "Say no to this",
+                "zh": "拒绝这一切"
+              },
+              {
+                "start": 10,
+                "end": 12.6,
+                "en": "But my God, she looks so helpless",
+                "zh": "可天哪，她看起来那么无助"
+              },
+              {
+                "start": 12.6,
+                "end": 14.7,
+                "en": "And her body’s saying: Hell, yes",
+                "zh": "她的身体却在说：当然愿意"
+              },
+              {
+                "start": 14.7,
+                "end": 15.5,
+                "en": "Whoa…",
+                "zh": "噢……"
+              },
+              {
+                "start": 15.5,
+                "end": 17,
+                "en": "Show me how to",
+                "zh": "告诉我该如何"
+              },
+              {
+                "start": 17,
+                "end": 18.8,
+                "en": "Say no to this",
+                "zh": "拒绝这一切"
+              },
+              {
+                "start": 18.8,
+                "end": 20.3,
+                "en": "I don’t know how to",
+                "zh": "我不知道该如何"
+              },
+              {
+                "start": 20.3,
+                "end": 22,
+                "en": "Say no to this",
+                "zh": "拒绝这一切"
+              },
+              {
+                "start": 22,
+                "end": 23.6,
+                "en": "In my mind, I’m tryin’ to go",
+                "zh": "心里却想离开"
+              },
+              {
+                "start": 23.6,
+                "end": 24.4,
+                "en": "Go, go, go",
+                "zh": "走，走，走！"
+              },
+              {
+                "start": 24.4,
+                "end": 26,
+                "en": "Then her mouth is on mine",
+                "zh": "她的唇贴上了我"
+              },
+              {
+                "start": 26,
+                "end": 27,
+                "en": "And I don’t say…",
+                "zh": "我没说……"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Maria",
+          "name": "玛丽亚·雷诺兹",
+          "english": "Maria Reynolds",
+          "sentences": [
+            "她向独自在费城的 Hamilton 求助，两人随后发生婚外情。",
+            "这段关系与丈夫的勒索纠缠在一起，成为后来丑闻的核心。"
+          ],
+          "asset": "cast/Maria.glb",
+          "bounds": {
+            "min": [
+              -0.6153596043586731,
+              -1.5497207961345794e-09,
+              -0.3399999439716339
+            ],
+            "max": [
+              0.6153595447540283,
+              1.8000000715255737,
+              0.30000004172325134
+            ]
+          },
+          "position": [
+            1.35,
+            0.04,
+            0.65
+          ],
+          "facing": -35,
+          "music": {
+            "id": "1791-maria",
+            "song": "Say No to This",
+            "file": "audio/1791-maria.m4a",
+            "duration": 24.5,
+            "singers": [
+              "Maria",
+              "Hamilton"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 3.2,
+                "en": "I know you are a man of honor",
+                "zh": "我知道您是位正直的人"
+              },
+              {
+                "start": 3.2,
+                "end": 6.8,
+                "en": "I’m so sorry to bother you at home",
+                "zh": "抱歉冒昧到府上打扰您"
+              },
+              {
+                "start": 6.8,
+                "end": 9.6,
+                "en": "But I don’t know where to go",
+                "zh": "可是我不知道还能去哪里"
+              },
+              {
+                "start": 9.6,
+                "end": 12,
+                "en": "And I came here all alone",
+                "zh": "我独自一人来到这里"
+              },
+              {
+                "start": 12,
+                "end": 12.6,
+                "en": "She said",
+                "zh": "她说"
+              },
+              {
+                "start": 12.6,
+                "end": 15,
+                "en": "My husband’s doin’ me wrong",
+                "zh": "我丈夫一直在伤害我"
+              },
+              {
+                "start": 15,
+                "end": 18,
+                "en": "Beatin’ me, cheatin’ me, mistreatin’ me",
+                "zh": "打我、背叛我、虐待我"
+              },
+              {
+                "start": 18,
+                "end": 20.8,
+                "en": "Suddenly he’s up and gone",
+                "zh": "他突然一走了之"
+              },
+              {
+                "start": 20.8,
+                "end": 22.9,
+                "en": "I don’t have the means to go on",
+                "zh": "我已经无以为生"
+              },
+              {
+                "start": 22.9,
+                "end": 24.5,
+                "en": "So I offered her a loan",
+                "zh": "于是我提出借些钱给她"
+              }
+            ]
+          }
+        },
+        {
+          "role": "JamesReynolds",
+          "name": "詹姆斯·雷诺兹",
+          "english": "James Reynolds",
+          "sentences": [
+            "Maria 的丈夫，发现她与 Hamilton 的关系后写信勒索。",
+            "他索取的款项留下记录，后来引来 Hamilton 政敌的追查。"
+          ],
+          "asset": "cast/JamesReynolds.glb",
+          "bounds": {
+            "min": [
+              -0.6153594255447388,
+              2.1755695023273347e-09,
+              -0.28830569982528687
+            ],
+            "max": [
+              0.6153596639633179,
+              1.8000000715255737,
+              0.2580000162124634
+            ]
+          },
+          "position": [
+            3.4,
+            0.04,
+            -2.35
+          ],
+          "facing": -25,
+          "music": {
+            "id": "1791-jamesreynolds",
+            "song": "Say No to This",
+            "file": "audio/1791-jamesreynolds.m4a",
+            "duration": 25,
+            "singers": [
+              "JamesReynolds"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 3.1,
+                "en": "Dear Sir, I hope this letter finds you in good health",
+                "zh": "尊敬的先生，愿您收到此信时身体安康"
+              },
+              {
+                "start": 3.1,
+                "end": 6.2,
+                "en": "And in a prosperous enough position to put wealth",
+                "zh": "也足够富裕，能拿出些钱"
+              },
+              {
+                "start": 6.2,
+                "end": 9.3,
+                "en": "In the pockets of people like me down on their luck",
+                "zh": "放进像我这样倒霉之人的口袋"
+              },
+              {
+                "start": 9.3,
+                "end": 12.4,
+                "en": "You see, that was my wife who you decided to…",
+                "zh": "您要知道，您下手的对象是我妻子……"
+              },
+              {
+                "start": 13,
+                "end": 16,
+                "en": "Uh-oh, you made the wrong sucker a cuckold",
+                "zh": "哦，你给错人戴绿帽了"
+              },
+              {
+                "start": 16,
+                "end": 19.1,
+                "en": "So time to pay the piper for the pants you unbuckled",
+                "zh": "裤腰带既然解了，现在就该付账"
+              },
+              {
+                "start": 19.1,
+                "end": 22,
+                "en": "And hey, you can keep seein’ my whore wife",
+                "zh": "嘿，你还可以继续找我那荡妇老婆"
+              },
+              {
+                "start": 22,
+                "end": 25,
+                "en": "If the price is right; if not, I’m telling your wife",
+                "zh": "价钱合适就行，否则我就告诉你妻子"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "year": 1800,
+      "actors": [
+        {
+          "role": "Hamilton",
+          "name": "亚历山大·汉密尔顿",
+          "english": "Alexander Hamilton",
+          "sentences": [
+            "在杰斐逊与伯尔的总统竞逐中，他的立场受到各方关注。",
+            "他最终支持政见不同但有信念的杰斐逊，使自己与伯尔的矛盾进一步加深。"
+          ],
+          "asset": "cast/Hamilton.glb",
+          "bounds": {
+            "min": [
+              -0.6153596019744874,
+              1.4305114759416426e-08,
+              -0.5192862749099731
+            ],
+            "max": [
+              0.6153596019744874,
+              1.8000000715255737,
+              0.25800004601478577
+            ]
+          },
+          "position": [
+            0,
+            0.04,
+            2.6
+          ],
+          "facing": 0,
+          "music": {
+            "id": "1800-hamilton",
+            "song": "The Election of 1800",
+            "file": "audio/1800-hamilton.m4a",
+            "duration": 14,
+            "singers": [
+              "Hamilton",
+              "Jefferson",
+              "Madison"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 4.8,
+                "en": "I have never agreed with Jefferson once",
+                "zh": "我从来没有赞同过杰斐逊，哪怕一次"
+              },
+              {
+                "start": 4.8,
+                "end": 8.4,
+                "en": "We have fought on like seventy-five different fronts",
+                "zh": "我们在大概七十五个议题上争论不休"
+              },
+              {
+                "start": 8.4,
+                "end": 11.2,
+                "en": "But when all is said and all is done",
+                "zh": "可说到底，尘埃落定之后"
+              },
+              {
+                "start": 11.2,
+                "end": 14,
+                "en": "Jefferson has beliefs. Burr has none.",
+                "zh": "杰斐逊有自己的信念，伯尔却没有。"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Jefferson",
+          "name": "托马斯·杰斐逊",
+          "english": "Thomas Jefferson",
+          "sentences": [
+            "从法国归来后出任国务卿，是 Hamilton 的主要政治对手。",
+            "他与 Madison 联手反对 Hamilton 的财政主张，并在大选中争夺总统之位。"
+          ],
+          "asset": "cast/Jefferson.glb",
+          "bounds": {
+            "min": [
+              -0.6153594851493835,
+              0.0,
+              -0.32668569684028625
+            ],
+            "max": [
+              0.6153594851493835,
+              1.9500000476837158,
+              0.2579999566078186
+            ]
+          },
+          "position": [
+            -2.4,
+            0.04,
+            0.55
+          ],
+          "facing": 50,
+          "music": {
+            "id": "1800-jefferson",
+            "song": "The Election of 1800",
+            "file": "audio/1800-jefferson.m4a",
+            "duration": 7,
+            "singers": [
+              "Jefferson",
+              "Madison"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.6,
+                "en": "It's up to the delegates!",
+                "zh": "这要由代表们决定！"
+              },
+              {
+                "start": 1.6,
+                "end": 4.6,
+                "en": "If you had to choose, if you had to choose",
+                "zh": "如果你必须选择，如果你必须选择"
+              },
+              {
+                "start": 4.6,
+                "end": 7,
+                "en": "It's up to Hamilton!",
+                "zh": "这取决于汉密尔顿！"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Madison",
+          "name": "詹姆斯·麦迪逊",
+          "english": "James Madison",
+          "sentences": [
+            "Jefferson 的政治盟友，与他共同反对 Hamilton 的财政计划。",
+            "他在内阁争论和总统大选中，帮助 Jefferson 争取支持。"
+          ],
+          "asset": "cast/Madison.glb",
+          "bounds": {
+            "min": [
+              -0.5907450318336487,
+              2.088546668943536e-09,
+              -0.27677348256111145
+            ],
+            "max": [
+              0.5907452702522278,
+              1.7280000448226929,
+              0.24768000841140747
+            ]
+          },
+          "position": [
+            -3.8,
+            0.04,
+            -1.1
+          ],
+          "facing": 30,
+          "music": {
+            "id": "1800-madison",
+            "song": "The Election of 1800",
+            "file": "audio/1800-madison.m4a",
+            "duration": 13.2,
+            "singers": [
+              "Madison",
+              "Jefferson"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 2.2,
+                "en": "If you had to choose, if you had to choose",
+                "zh": "如果你必须选择，如果你必须选择"
+              },
+              {
+                "start": 2.2,
+                "end": 3.2,
+                "en": "It's a tie!",
+                "zh": "票数打平了！"
+              },
+              {
+                "start": 3.2,
+                "end": 6.2,
+                "en": "If you had to choose, if you had to choose",
+                "zh": "如果你必须选择，如果你必须选择"
+              },
+              {
+                "start": 6.2,
+                "end": 7.8,
+                "en": "It's up to the delegates!",
+                "zh": "这要由代表们决定！"
+              },
+              {
+                "start": 7.8,
+                "end": 10.8,
+                "en": "If you had to choose, if you had to choose",
+                "zh": "如果你必须选择，如果你必须选择"
+              },
+              {
+                "start": 10.8,
+                "end": 13.2,
+                "en": "It's up to Hamilton!",
+                "zh": "这取决于汉密尔顿！"
+              }
+            ]
+          }
+        },
+        {
+          "role": "Burr",
+          "name": "阿伦·伯尔",
+          "english": "Aaron Burr",
+          "sentences": [
+            "Hamilton 在纽约结识的律师，处事谨慎，习惯等待时机。",
+            "两人的政治道路逐渐分岔，友谊也慢慢转为竞争。"
+          ],
+          "asset": "cast/Burr.glb",
+          "bounds": {
+            "min": [
+              -0.6153594255447388,
+              2.1755695023273347e-09,
+              -0.28830569982528687
+            ],
+            "max": [
+              0.6153596639633179,
+              1.8000000715255737,
+              0.2580000162124634
+            ]
+          },
+          "position": [
+            2.4,
+            0.04,
+            0.55
+          ],
+          "facing": -50,
+          "music": {
+            "id": "1800-burr",
+            "song": "The Election of 1800",
+            "file": "audio/1800-burr.m4a",
+            "duration": 15,
+            "singers": [
+              "Burr"
+            ],
+            "cues": [
+              {
+                "start": 0,
+                "end": 1.65,
+                "en": "Talk less! (Burr!)",
+                "zh": "少说话！（伯尔！）"
+              },
+              {
+                "start": 1.65,
+                "end": 3.3,
+                "en": "Smile more! (Burr!)",
+                "zh": "多微笑！（伯尔！）"
+              },
+              {
+                "start": 3.3,
+                "end": 6.65,
+                "en": "Don’t let ’em know what you’re against or what you’re for! (Burr!)",
+                "zh": "别让他们知道你反对什么，又支持什么！（伯尔！）"
+              },
+              {
+                "start": 6.65,
+                "end": 8.3,
+                "en": "Shake hands with him! (Burr!)",
+                "zh": "跟他握握手！（伯尔！）"
+              },
+              {
+                "start": 8.3,
+                "end": 9.95,
+                "en": "Charm her! (Burr!)",
+                "zh": "赢得她的好感！（伯尔！）"
+              },
+              {
+                "start": 9.95,
+                "end": 11.9,
+                "en": "It’s eighteen hundred, ladies,",
+                "zh": "女士们，现在是一八〇〇年"
+              },
+              {
+                "start": 11.9,
+                "end": 15,
+                "en": "Tell your husbands: vote for Burr! (Burr!)",
+                "zh": "告诉你们的丈夫：投票给伯尔！（伯尔！）"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

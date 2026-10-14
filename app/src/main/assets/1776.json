@@ -1,0 +1,886 @@
+{
+  "year": 1776,
+  "title": "纽约 · 革命初遇",
+  "years": [
+    {
+      "year": 1776,
+      "title": "纽约 · 革命初遇",
+      "available": true
+    },
+    {
+      "year": 1780,
+      "title": "冬季舞会 · 相遇与心动",
+      "available": false
+    },
+    {
+      "year": 1781,
+      "title": "约克镇 · 并肩作战",
+      "available": false
+    },
+    {
+      "year": 1789,
+      "title": "纽约 · Jefferson 归来",
+      "available": false
+    },
+    {
+      "year": 1791,
+      "title": "费城 · Reynolds 往事",
+      "available": false
+    },
+    {
+      "year": 1800,
+      "title": "总统大选 · Hamilton 的选择",
+      "available": false
+    }
+  ],
+  "actors": [
+    {
+      "role": "Hamilton",
+      "name": "亚历山大·汉密尔顿",
+      "english": "Alexander Hamilton",
+      "sentences": [
+        "初到纽约的青年，满怀抱负，渴望投身革命。",
+        "他结识伯尔与一群革命伙伴，决心抓住改变命运的机会。"
+      ],
+      "asset": "cast/Hamilton.glb",
+      "position": [
+        0,
+        0.04,
+        2.6
+      ],
+      "facing": 0,
+      "bounds": {
+        "min": [
+          -0.6153596019744874,
+          1.4305114759416426e-8,
+          -0.5192862749099731
+        ],
+        "max": [
+          0.6153596019744874,
+          1.8000000715255737,
+          0.25800004601478577
+        ]
+      },
+      "music": {
+        "id": "1776-hamilton",
+        "song": "My Shot",
+        "file": "audio/1776-hamilton.m4a",
+        "duration": 23,
+        "singers": [
+          "Hamilton"
+        ],
+        "cues": [
+          {
+            "start": 0,
+            "end": 2.8,
+            "en": "I am not throwing away my shot",
+            "zh": "我不会放弃这次机会"
+          },
+          {
+            "start": 2.8,
+            "end": 5.55,
+            "en": "I am not throwing away my shot",
+            "zh": "我不会放弃这次机会"
+          },
+          {
+            "start": 5.55,
+            "end": 6.95,
+            "en": "Hey yo, I’m just like my country",
+            "zh": "嘿，我就像我的国家"
+          },
+          {
+            "start": 6.95,
+            "end": 8.35,
+            "en": "I’m young, scrappy and hungry",
+            "zh": "年轻、顽强，满怀渴望"
+          },
+          {
+            "start": 8.35,
+            "end": 11.1,
+            "en": "And I’m not throwing away my shot",
+            "zh": "我绝不会放弃这次机会"
+          },
+          {
+            "start": 11.1,
+            "end": 13.8,
+            "en": "I’m ‘a get a scholarship to King’s College",
+            "zh": "我要拿到国王学院的奖学金"
+          },
+          {
+            "start": 13.8,
+            "end": 16.6,
+            "en": "I probably shouldn’t brag, but dag, I amaze and astonish",
+            "zh": "也许不该自夸，可我的才华实在令人惊叹"
+          },
+          {
+            "start": 16.6,
+            "end": 19.35,
+            "en": "The problem is I got a lot of brains but no polish",
+            "zh": "问题是，我满脑子才华，却还未经打磨"
+          },
+          {
+            "start": 19.35,
+            "end": 20.75,
+            "en": "I gotta holler just to be heard",
+            "zh": "我得大声呼喊，才能让人听见"
+          },
+          {
+            "start": 20.75,
+            "end": 22.15,
+            "en": "With every word, I drop knowledge",
+            "zh": "我的每句话都带着见识"
+          },
+          {
+            "start": 22.15,
+            "end": 23,
+            "en": "I’m a diamond in the rough",
+            "zh": "我是一颗尚未雕琢的钻石"
+          }
+        ]
+      }
+    },
+    {
+      "role": "Eliza",
+      "name": "伊莱莎·斯凯勒",
+      "english": "Eliza Schuyler",
+      "sentences": [
+        "斯凯勒三姐妹中的二姐，在舞会上与 Hamilton 相爱。",
+        "她珍视家人与陪伴，也在后来努力保存并讲述他的故事。"
+      ],
+      "asset": "cast/Eliza.glb",
+      "position": [
+        -3.9,
+        0.04,
+        1.3
+      ],
+      "facing": 10,
+      "bounds": {
+        "min": [
+          -0.6153596043586731,
+          -1.5497207961345794e-9,
+          -0.3399999439716339
+        ],
+        "max": [
+          0.6153595447540283,
+          1.8000000715255737,
+          0.30000004172325134
+        ]
+      },
+      "music": {
+        "id": "1776-eliza",
+        "song": "The Schuyler Sisters",
+        "file": "audio/1776-eliza.m4a",
+        "duration": 20.5,
+        "singers": [
+          "Eliza",
+          "Angelica",
+          "Peggy"
+        ],
+        "cues": [
+          {
+            "start": 0,
+            "end": 4.4,
+            "en": "Look around, look around at how lucky we are to be alive right now",
+            "zh": "看看四周，能活在此刻，我们何其幸运"
+          },
+          {
+            "start": 4.4,
+            "end": 8.8,
+            "en": "Look around, look around at how lucky we are to be alive right now",
+            "zh": "看看四周，能活在此刻，我们何其幸运"
+          },
+          {
+            "start": 8.8,
+            "end": 13.2,
+            "en": "History is happening in Manhattan and we just happen to be",
+            "zh": "历史正在曼哈顿发生，而我们恰好身在其中"
+          },
+          {
+            "start": 13.2,
+            "end": 16.2,
+            "en": "In the greatest city in the world!",
+            "zh": "就在这世上最伟大的城市！"
+          },
+          {
+            "start": 16.2,
+            "end": 18.5,
+            "en": "In the greatest city in the world!",
+            "zh": "就在这世上最伟大的城市！"
+          }
+        ]
+      }
+    },
+    {
+      "role": "Angelica",
+      "name": "安杰莉卡·斯凯勒",
+      "english": "Angelica Schuyler",
+      "sentences": [
+        "斯凯勒三姐妹中的长姐，聪慧敏锐，渴望与思想相投的人交流。",
+        "她与 Hamilton 彼此欣赏，同时始终牵挂妹妹 Eliza 的幸福。"
+      ],
+      "asset": "cast/Angelica.glb",
+      "position": [
+        -5.1,
+        0.04,
+        1.1
+      ],
+      "facing": 15,
+      "bounds": {
+        "min": [
+          -0.6153597235679626,
+          -1.5497207961345794e-9,
+          -0.30000004172325134
+        ],
+        "max": [
+          0.6153597235679626,
+          1.9049999713897705,
+          0.30000004172325134
+        ]
+      },
+      "music": {
+        "id": "1776-angelica",
+        "song": "The Schuyler Sisters",
+        "file": "audio/1776-angelica.m4a",
+        "duration": 19.9,
+        "singers": [
+          "Angelica"
+        ],
+        "cues": [
+          {
+            "start": 0,
+            "end": 2.6,
+            "en": "I’ve been reading Common Sense by Thomas Paine",
+            "zh": "我一直在读托马斯·潘恩的《常识》"
+          },
+          {
+            "start": 2.6,
+            "end": 4.95,
+            "en": "So men say that I’m intense or I’m insane",
+            "zh": "于是男人们说我太激进，或是疯了"
+          },
+          {
+            "start": 4.95,
+            "end": 6.15,
+            "en": "You want a revolution?",
+            "zh": "你想要一场革命？"
+          },
+          {
+            "start": 6.15,
+            "end": 7.35,
+            "en": "I want a revelation",
+            "zh": "我要的是思想的觉醒"
+          },
+          {
+            "start": 7.35,
+            "end": 9.65,
+            "en": "So listen to my declaration:",
+            "zh": "那就听听我的宣言："
+          },
+          {
+            "start": 9.65,
+            "end": 12,
+            "en": "We hold these truths to be self-evident",
+            "zh": "我们认为这些真理不言而喻"
+          },
+          {
+            "start": 12,
+            "end": 14.35,
+            "en": "That all men are created equal",
+            "zh": "人人生而平等"
+          },
+          {
+            "start": 14.35,
+            "end": 16.7,
+            "en": "And when I meet Thomas Jefferson (unh!)",
+            "zh": "等我见到托马斯·杰斐逊——哼！"
+          },
+          {
+            "start": 16.7,
+            "end": 19.45,
+            "en": "I’mma compel him to include women in the sequel!",
+            "zh": "我要让他在续篇中把女性也写进去！"
+          },
+          {
+            "start": 19.45,
+            "end": 19.9,
+            "en": "Work!",
+            "zh": "行动起来！"
+          }
+        ]
+      }
+    },
+    {
+      "role": "Peggy",
+      "name": "佩姬·斯凯勒",
+      "english": "Peggy Schuyler",
+      "sentences": [
+        "斯凯勒三姐妹中的小妹，与姐姐们一起探索热闹的纽约。",
+        "在姐妹们兴奋谈论革命时，她提醒大家父亲的叮嘱。"
+      ],
+      "asset": "cast/Peggy.glb",
+      "position": [
+        -2.7,
+        0.04,
+        1.5
+      ],
+      "facing": 5,
+      "bounds": {
+        "min": [
+          -0.5968987345695496,
+          -1.7344952141229442e-9,
+          -0.29100003838539124
+        ],
+        "max": [
+          0.5968989729881287,
+          1.8963500261306763,
+          0.29100003838539124
+        ]
+      },
+      "music": {
+        "id": "1776-peggy",
+        "song": "The Schuyler Sisters",
+        "file": "audio/1776-peggy.m4a",
+        "duration": 8.617,
+        "singers": [
+          "Peggy",
+          "Angelica",
+          "Eliza"
+        ],
+        "cues": [
+          {
+            "start": 0,
+            "end": 1.25,
+            "en": "Angelica!",
+            "zh": "安杰莉卡！"
+          },
+          {
+            "start": 1.25,
+            "end": 2.25,
+            "en": "Work, work!",
+            "zh": "动起来，动起来！"
+          },
+          {
+            "start": 2.25,
+            "end": 3.25,
+            "en": "Eliza!",
+            "zh": "伊莱莎！"
+          },
+          {
+            "start": 3.25,
+            "end": 3.5,
+            "en": "Work, work!",
+            "zh": "动起来，动起来！"
+          },
+          {
+            "start": 3.5,
+            "end": 4,
+            "en": "And Peggy!",
+            "zh": "还有佩姬！"
+          },
+          {
+            "start": 4,
+            "end": 4.5,
+            "en": "Work, work!",
+            "zh": "动起来，动起来！"
+          },
+          {
+            "start": 4.5,
+            "end": 6,
+            "en": "The Schuyler sisters!",
+            "zh": "斯凯勒姐妹！"
+          },
+          {
+            "start": 6,
+            "end": 6.75,
+            "en": "Angelica!",
+            "zh": "安杰莉卡！"
+          },
+          {
+            "start": 6.75,
+            "end": 7,
+            "en": "Peggy!",
+            "zh": "佩姬！"
+          },
+          {
+            "start": 7,
+            "end": 7.75,
+            "en": "Eliza!",
+            "zh": "伊莱莎！"
+          },
+          {
+            "start": 7.75,
+            "end": 8.616667,
+            "en": "Work!",
+            "zh": "动起来！"
+          }
+        ]
+      }
+    },
+    {
+      "role": "Lafayette",
+      "name": "拉法耶特侯爵",
+      "english": "Marquis de Lafayette",
+      "sentences": [
+        "从法国来到美国的青年军官，也是 Hamilton 的亲密战友。",
+        "在约克镇战役中，他与 Hamilton 并肩作战，争取独立。"
+      ],
+      "asset": "cast/Lafayette.glb",
+      "position": [
+        -2.3,
+        0.04,
+        -1.15
+      ],
+      "facing": 30,
+      "bounds": {
+        "min": [
+          -0.6276665925979614,
+          -6.1422587016579655e-9,
+          -0.5296720266342163
+        ],
+        "max": [
+          0.6276668310165405,
+          1.8569256067276,
+          0.26316002011299133
+        ]
+      },
+      "music": {
+        "id": "1776-lafayette",
+        "song": "Aaron Burr, Sir",
+        "file": "audio/1776-lafayette.m4a",
+        "duration": 11.7,
+        "singers": [
+          "Lafayette"
+        ],
+        "cues": [
+          {
+            "start": 0,
+            "end": 3,
+            "en": "Oui oui, mon ami, je m’appelle Lafayette",
+            "zh": "是的，朋友，我叫拉法耶特"
+          },
+          {
+            "start": 3,
+            "end": 5.8,
+            "en": "The Lancelot of the revolutionary set",
+            "zh": "革命者中的兰斯洛特骑士"
+          },
+          {
+            "start": 5.8,
+            "end": 8.3,
+            "en": "I came from afar just to say bonsoir",
+            "zh": "我远道而来，只为道一声晚安"
+          },
+          {
+            "start": 8.3,
+            "end": 9.7,
+            "en": "Tell the king “Casse-toi!”",
+            "zh": "告诉国王：“滚蛋！”"
+          },
+          {
+            "start": 9.7,
+            "end": 10.55,
+            "en": "Who’s the best?",
+            "zh": "谁最棒？"
+          },
+          {
+            "start": 10.55,
+            "end": 11.7,
+            "en": "C’est moi!",
+            "zh": "就是我！"
+          }
+        ]
+      }
+    },
+    {
+      "role": "Laurens",
+      "name": "约翰·劳伦斯",
+      "english": "John Laurens",
+      "sentences": [
+        "Hamilton 的革命伙伴，热情勇敢，主张废除奴隶制。",
+        "他与朋友们共同投身独立战争，梦想让自由属于更多人。"
+      ],
+      "asset": "cast/Laurens.glb",
+      "position": [
+        -1.6,
+        0.04,
+        0.2
+      ],
+      "facing": 25,
+      "bounds": {
+        "min": [
+          -0.6153596043586731,
+          2.1755695023273347e-9,
+          -0.5192862153053284
+        ],
+        "max": [
+          0.6153596043586731,
+          1.8000000715255737,
+          0.25800007581710815
+        ]
+      },
+      "music": {
+        "id": "1776-laurens",
+        "song": "Aaron Burr, Sir",
+        "file": "audio/1776-laurens.m4a",
+        "duration": 13.4,
+        "singers": [
+          "Laurens"
+        ],
+        "cues": [
+          {
+            "start": 0,
+            "end": 1.6,
+            "en": "Show time, show time!",
+            "zh": "好戏开场，好戏开场！"
+          },
+          {
+            "start": 1.6,
+            "end": 4.9,
+            "en": "Yo, I’m John Laurens in the place to be",
+            "zh": "嘿，我是约翰·劳伦斯，今晚就在这里"
+          },
+          {
+            "start": 4.9,
+            "end": 8.3,
+            "en": "Two pints o’ Sam Adams, but I’m workin’ on three, uh",
+            "zh": "两品脱塞缪尔·亚当斯啤酒下肚，第三杯也快了"
+          },
+          {
+            "start": 8.3,
+            "end": 10.5,
+            "en": "Those redcoats don’t want it with me",
+            "zh": "那些红衣兵可不想惹我"
+          },
+          {
+            "start": 10.5,
+            "end": 13.4,
+            "en": "’Cause I will pop-chick-a pop these cops ’til I’m free!",
+            "zh": "我要砰砰几枪撂倒这些兵，直到赢得自由！"
+          }
+        ]
+      }
+    },
+    {
+      "role": "Mulligan",
+      "name": "赫丘利斯·穆里根",
+      "english": "Hercules Mulligan",
+      "sentences": [
+        "Hamilton 的革命伙伴，以裁缝的身份接近英军。",
+        "他暗中搜集情报，为朋友们的战斗提供帮助。"
+      ],
+      "asset": "cast/Mulligan.glb",
+      "position": [
+        -0.7,
+        0.04,
+        -1.7
+      ],
+      "facing": 10,
+      "bounds": {
+        "min": [
+          -0.615359365940094,
+          0,
+          -0.2586863040924072
+        ],
+        "max": [
+          0.6153597831726074,
+          1.815000057220459,
+          0.28999990224838257
+        ]
+      },
+      "music": {
+        "id": "1776-mulligan",
+        "song": "Aaron Burr, Sir",
+        "file": "audio/1776-mulligan.m4a",
+        "duration": 12.5,
+        "singers": [
+          "Mulligan"
+        ],
+        "cues": [
+          {
+            "start": 0,
+            "end": 0.9,
+            "en": "Brrah brrah!",
+            "zh": "布啦，布啦！"
+          },
+          {
+            "start": 0.9,
+            "end": 2.6,
+            "en": "I am Hercules Mulligan",
+            "zh": "我就是赫拉克勒斯·穆里根"
+          },
+          {
+            "start": 2.6,
+            "end": 3.5,
+            "en": "Up in it, lovin’ it",
+            "zh": "乐在其中，爱极了这一切"
+          },
+          {
+            "start": 3.5,
+            "end": 5.9,
+            "en": "Yes, I heard ya mother said “Come again?”",
+            "zh": "我听见你妈说：“再来一次？”"
+          },
+          {
+            "start": 6.6,
+            "end": 9.25,
+            "en": "Lock up ya daughters and horses, of course",
+            "zh": "当然，把你们的女儿和马都关好"
+          },
+          {
+            "start": 9.25,
+            "end": 10.7,
+            "en": "It’s hard to have intercourse",
+            "zh": "想做爱可真难"
+          },
+          {
+            "start": 10.7,
+            "end": 12.5,
+            "en": "Over four sets of corsets",
+            "zh": "隔着四层紧身衣"
+          }
+        ]
+      }
+    },
+    {
+      "role": "Burr",
+      "name": "阿伦·伯尔",
+      "english": "Aaron Burr",
+      "sentences": [
+        "Hamilton 在纽约结识的律师，处事谨慎，习惯等待时机。",
+        "两人的政治道路逐渐分岔，友谊也慢慢转为竞争。"
+      ],
+      "asset": "cast/Burr.glb",
+      "position": [
+        1.6,
+        0.04,
+        0.3
+      ],
+      "facing": -35,
+      "bounds": {
+        "min": [
+          -0.6153594255447388,
+          2.1755695023273347e-9,
+          -0.28830569982528687
+        ],
+        "max": [
+          0.6153596639633179,
+          1.8000000715255737,
+          0.2580000162124634
+        ]
+      },
+      "music": {
+        "id": "1776-burr",
+        "song": "Aaron Burr, Sir",
+        "file": "audio/1776-burr.m4a",
+        "duration": 24.5,
+        "singers": [
+          "Burr",
+          "Hamilton"
+        ],
+        "cues": [
+          {
+            "start": 0,
+            "end": 1.55,
+            "en": "Can I buy you a drink?",
+            "zh": "我请你喝一杯，好吗？"
+          },
+          {
+            "start": 1.55,
+            "end": 2.65,
+            "en": "That would be nice",
+            "zh": "那太好了"
+          },
+          {
+            "start": 2.65,
+            "end": 5.4,
+            "en": "While we’re talking, let me offer you some free advice",
+            "zh": "既然聊起来了，免费送你一点忠告"
+          },
+          {
+            "start": 5.4,
+            "end": 7.3,
+            "en": "Talk less.",
+            "zh": "少说话。"
+          },
+          {
+            "start": 7.3,
+            "end": 7.6,
+            "en": "What?",
+            "zh": "什么？"
+          },
+          {
+            "start": 7.6,
+            "end": 9.8,
+            "en": "Smile more.",
+            "zh": "多微笑。"
+          },
+          {
+            "start": 9.8,
+            "end": 10.1,
+            "en": "Ha!",
+            "zh": "哈！"
+          },
+          {
+            "start": 10.1,
+            "end": 16.2,
+            "en": "Don’t let them know what you’re against or what you’re for.",
+            "zh": "别让他们知道，你反对什么，又支持什么。"
+          },
+          {
+            "start": 16.3,
+            "end": 18.1,
+            "en": "You can’t be serious.",
+            "zh": "你不是认真的吧。"
+          },
+          {
+            "start": 18.3,
+            "end": 20,
+            "en": "You wanna get ahead?",
+            "zh": "你想出人头地吗？"
+          },
+          {
+            "start": 20.1,
+            "end": 21,
+            "en": "Yes.",
+            "zh": "当然。"
+          },
+          {
+            "start": 23,
+            "end": 24.5,
+            "en": "Fools who run their mouths off wind up dead.",
+            "zh": "口无遮拦的傻瓜，到头来会送命。"
+          }
+        ]
+      }
+    },
+    {
+      "role": "GeorgeIII",
+      "name": "乔治三世",
+      "english": "King George III",
+      "sentences": [
+        "英国国王，把殖民地争取独立看作一场对自己的背叛。",
+        "他用甜蜜又带威胁的歌声，坚信离去的人终将回到身边。"
+      ],
+      "asset": "cast/GeorgeIII.glb",
+      "position": [
+        3,
+        2.76,
+        -4.8
+      ],
+      "facing": 0,
+      "bounds": {
+        "min": [
+          -0.6153594851493835,
+          -6.541609565147155e-8,
+          -0.3250000476837158
+        ],
+        "max": [
+          0.6153595447540283,
+          1.9700000286102295,
+          0.2633054554462433
+        ]
+      },
+      "music": {
+        "id": "1776-georgeiii",
+        "song": "You'll Be Back",
+        "file": "audio/1776-georgeiii.m4a",
+        "duration": 33.98,
+        "singers": [
+          "GeorgeIII"
+        ],
+        "cues": [
+          {
+            "start": 0,
+            "end": 0.5,
+            "en": "Remember, despite our estrangement,\nI'm your man",
+            "zh": "记住，即使我们渐行渐远，我仍是你的归属"
+          },
+          {
+            "start": 0.5,
+            "end": 2.5,
+            "en": "You'll be back",
+            "zh": "你会回来的"
+          },
+          {
+            "start": 2.5,
+            "end": 4.25,
+            "en": "Soon you'll see",
+            "zh": "很快你就会明白"
+          },
+          {
+            "start": 4.25,
+            "end": 8.5,
+            "en": "You'll remember you belong to me",
+            "zh": "你会记起，你属于我"
+          },
+          {
+            "start": 8.5,
+            "end": 10.5,
+            "en": "You'll be back",
+            "zh": "你会回来的"
+          },
+          {
+            "start": 10.5,
+            "end": 12.25,
+            "en": "Time will tell",
+            "zh": "时间会证明一切"
+          },
+          {
+            "start": 12.25,
+            "end": 16,
+            "en": "You'll remember that I served you well",
+            "zh": "你会记起，我曾待你不薄"
+          },
+          {
+            "start": 16,
+            "end": 18.5,
+            "en": "Oceans rise",
+            "zh": "海水上涨"
+          },
+          {
+            "start": 18.5,
+            "end": 20.25,
+            "en": "Empires fall",
+            "zh": "帝国倾覆"
+          },
+          {
+            "start": 20.25,
+            "end": 24,
+            "en": "We have seen each other through it all",
+            "zh": "我们曾相伴走过这一切"
+          },
+          {
+            "start": 24,
+            "end": 26.25,
+            "en": "And when push",
+            "zh": "而当局势"
+          },
+          {
+            "start": 26.25,
+            "end": 28,
+            "en": "Comes to shove",
+            "zh": "到了紧要关头"
+          },
+          {
+            "start": 28,
+            "end": 32.25,
+            "en": "I will send a fully armed battalion",
+            "zh": "我会派出一整个全副武装的营"
+          },
+          {
+            "start": 32.25,
+            "end": 33.75,
+            "en": "To remind you of my love!",
+            "zh": "提醒你，我有多爱你！"
+          },
+          {
+            "start": 33.75,
+            "end": 33.98,
+            "en": "Da da da dat da dat da da da",
+            "zh": "哒哒哒，哒哒哒……"
+          }
+        ]
+      }
+    }
+  ]
+}

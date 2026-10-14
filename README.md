@@ -2,7 +2,7 @@
 
 走进低多边形音乐剧舞台，穿梭六个年份，与角色互动，聆听演唱选段。
 
-这是面向 PICO Spatial SDK 的原生 Android Full Space 粉丝作品。包名 `com.hamilton.stage`，当前版本 `1.7.2-hamilton-icon`（versionCode 11）。
+这是面向 PICO Spatial SDK 的原生 Android Full Space 粉丝作品。包名 `com.hamilton.stage`，当前版本 `1.7.2`（versionCode 11）。
 
 ![应用图标](icon.png)
 
@@ -27,7 +27,7 @@
 
 ## 安装与兼容性
 
-安装包在本仓库 Releases 发布。版本面向支持 Spatial SDK 6.1 的 PICO OS 6 开发环境，Android API 35、ARM64。并非面向所有旧 PICO 系统的通用 VR 包。
+安装包在本仓库 Releases 发布，打包修复版见 `v1.7.2-buildfix`。版本面向支持 Spatial SDK 6.1 的 PICO OS 6 开发环境，Android API 35、ARM64。并非面向所有旧 PICO 系统的通用 VR 包。
 
 提供的是开发体验用 debug APK，不是应用商店签名发行包。保留 Android 原有签名验证；若已有不同签名版本，需要按系统提示处理安装冲突。
 
@@ -40,7 +40,7 @@ adb shell am start -n com.hamilton.stage/.platform.LaunchActivity
 
 ## 构建
 
-下载并解压仓库中的 `Hamilton-PICO-source-v1.7.2.zip`，进入 `hamilton-pico` 目录。压缩包保留完整 Gradle 工程目录与资源。
+直接克隆本仓库，在仓库根目录执行 Gradle。完整工程与运行资源均已展开，无需解压源码 ZIP。
 
 安装 JDK 21、Android SDK 35 和兼容的 PICO Spatial 开发环境。将 Android SDK 路径写入本机 `local.properties`，不要提交该文件：
 
@@ -75,3 +75,7 @@ chmod +x gradlew
 ## 开发工具
 
 使用 OpenAI Codex 辅助开发。历史记录未完整保存具体模型版本，因此不对具体型号作出声明。宣传图和图标使用 AI 图像生成工具辅助制作。
+
+## 自动构建入口
+
+仓库根目录包含 `settings.gradle.kts`、`build.gradle.kts`、`gradlew` 与 `app/`。使用 JDK 21 和 Android SDK 35，执行 `./gradlew :app:assembleRelease`。输出为 `app/build/outputs/apk/release/app-release-unsigned.apk`，交由平台签名；开发体验包使用 `./gradlew :app:assembleDebug`。不要在提交表单继续使用旧的 ZIP-only Commit ID。
