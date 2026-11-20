@@ -2,7 +2,7 @@
 
 走进低多边形音乐剧舞台，穿梭六个年份，与角色互动，聆听演唱选段。
 
-这是面向 PICO Spatial SDK 的原生 Android Full Space 粉丝作品。包名 `com.hamilton.stage`，当前版本 `1.7.2`（versionCode 11）。
+这是面向 PICO Spatial SDK 的原生 Android Full Space 粉丝作品。包名 `com.hamilton.stage`，当前版本 `1.7.3`（versionCode 12）。
 
 ![应用图标](icon.png)
 
@@ -27,12 +27,12 @@
 
 ## 安装与兼容性
 
-安装包在本仓库 Releases 发布，打包修复版见 `v1.7.2-buildfix`。版本面向支持 Spatial SDK 6.1 的 PICO OS 6 开发环境，Android API 35、ARM64。并非面向所有旧 PICO 系统的通用 VR 包。
+安装包在本仓库 Releases 发布，性能修复版见 [v1.7.3](https://github.com/skyscraperlee22-del/hamilton-pico/releases/tag/v1.7.3)。版本面向支持 Spatial SDK 6.1 的 PICO OS 6 开发环境，Android API 35、ARM64。并非面向所有旧 PICO 系统的通用 VR 包。
 
 提供的是开发体验用 debug APK，不是应用商店签名发行包。保留 Android 原有签名验证；若已有不同签名版本，需要按系统提示处理安装冲突。
 
 ```bash
-adb install -r Hamilton-PICO-v1.7.2.apk
+adb install -r Hamilton-PICO-v1.7.3.apk
 adb shell am start -n com.hamilton.stage/.platform.LaunchActivity
 ```
 

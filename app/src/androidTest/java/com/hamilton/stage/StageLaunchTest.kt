@@ -26,6 +26,6 @@ class StageLaunchTest {
         }
         assertNull("Native Stage loading error", StageLoadState.failure)
         assertTrue("Stage did not finish loading in 60 seconds", StageLoadState.ready)
-        assertEquals("All 17 material batches must load into native ECS", 17, StageLoadState.modelBatches)
+        assertEquals("Baked stage mesh must load into native ECS", 1, StageLoadState.modelBatches)
     }
 }

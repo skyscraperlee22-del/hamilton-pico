@@ -116,6 +116,32 @@ class PerformanceTest {
         }
         }
     }
+    /** Inspect SpatialFrameTiming between SELECT and PROFILE_END on a worn headset. */
+    @Test fun profileSixYearsOnHeadset() {
+        val director = launch()
+        val roles = listOf("Burr", "Laurens", "Washington", "Madison", "Maria", "Jefferson")
+        val singleYear = InstrumentationRegistry.getArguments().getString("yearIndex")?.toInt()
+        try {
+            instrumentation.runOnMainSync { com.pico.spatial.ui.foundation.dsl.registerSystem<CaptionFrameProbe>() }
+            for ((index, role) in roles.withIndex()) {
+                if (singleYear != null && singleYear != index) continue
+                instrumentation.runOnMainSync { director.chooseYear(index) }
+                instrumentation.runOnMainSync {
+                    assertTrue(director.selectFromTap(director.actors.getValue(role).root, InteractionKind.GazePinch))
+                }
+                await(30000) { director.ui.phase == PerformancePhase.PLAYING && director.captions?.displayedCue != null }
+                SystemClock.sleep(if (singleYear == null) 6000L else 3200L)
+                instrumentation.runOnMainSync {
+                    assertEquals(PerformancePhase.PLAYING, director.ui.phase)
+                    android.util.Log.i("HamiltonPerformance", "PROFILE_END role=$role")
+                }
+            }
+            instrumentation.runOnMainSync { director.stopPerformance(); director.chooseYear(0) }
+        } finally {
+            instrumentation.runOnMainSync { com.pico.spatial.ui.foundation.dsl.unregisterSystem<CaptionFrameProbe>() }
+        }
+    }
+
     @Test fun missingEntityGazeTapStartsTheRealPerformance(){
         val director=launch()
         instrumentation.runOnMainSync{

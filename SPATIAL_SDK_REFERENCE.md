@@ -13,7 +13,9 @@ The existing source and optimized GLB were independently measured with the scene
 
 The floor origin is at the viewer's feet; the OS supplies head position and height. Do not add an artificial 1.6-metre head-height offset. The world is now lowered to Y=-0.42 m, raising the audience by 45 cm relative to the stage-only version. The viewer starts 9.5 metres in front of the turntable centre, facing the backdrop.
 
-Original GLB: 1,492 mesh nodes. The preparation script excludes 117 baked actor meshes, so the independently loaded cast can animate. It merges the remaining 1,375 objects by material into 17 mesh batches, preserving 21,790 triangles and baking original world transforms once. Matte roughness follows the existing web renderer. The sky adds one primitive mesh; lighting adds one directional key and two spots.
+The original GLB had 1,492 mesh nodes. The previous stage asset grouped 1,375 static objects into 17 material batches and kept actors separate. In 1.7.3, `tools/bake_stage.py` converts that specific asset into one indexed mesh with baked warm lighting stored in linear vertex colors. It preserves the 21,790 triangles, their stage coordinates, and the stair geometry. The separate character models retain their materials, ambient light, directional key and two spots. Dynamic cast shadows are disabled.
+
+To reproduce the static mesh, run `git show b67a154:app/src/main/assets/hamilton-stage.glb > /tmp/hamilton-stage-original.glb`, then `python3 tools/bake_stage.py /tmp/hamilton-stage-original.glb app/src/main/assets/hamilton-stage.glb`.
 
 ## Native APIs verified against installed 6.1.9 source
 - `DefaultStage { ... }` and manifest `pico.spatial.stage.style = 3` enter Full Space.

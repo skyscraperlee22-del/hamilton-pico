@@ -51,9 +51,14 @@ class StageActor(var member:CastMember,val root:Entity) {
         transform.setPosition(member.position.vector()).setEulerAngles(EulerAngles(0f,member.facing,0f))
         pose(0f,false,false)
     }
+    private var limbsAtRest = false
+    private var mouthAtRest = false
     fun pose(time:Float,walking:Boolean,singing:Boolean) {
         val swing=if(walking) sin(time*10.5f)*28f else 0f
-        limbs.forEachIndexed { i,t ->t?.setEulerAngles(EulerAngles(swing*(if(i==0||i==3)1 else -1),0f,0f)) }
+        if (walking || !limbsAtRest) limbs.forEachIndexed { i,t ->t?.setEulerAngles(EulerAngles(swing*(if(i==0||i==3)1 else -1),0f,0f)) }
+        limbsAtRest = !walking
+        if (!singing && mouthAtRest) return
+        mouthAtRest = !singing
         val opening=if(singing) 1f+5f*abs(sin(time*11f)*.7f+sin(time*17.1f)*.3f) else 1f
         mouth?.setScaleVector(Vector3(1f,opening,1f))
     }
@@ -146,6 +151,7 @@ class PerformanceDirector(context:Context) {
         if(!ready||closed)return
         val actor=actors[role]?:return
         viewRig?.reset()
+        captions?.prepare(actor.member.music)
         audio.stop();resetPoses();ui.lyric=null;ui.progress=0f;ui.error="";ui.selected=actor.member
         try {
             route=navigation.route(hamiltonPosition,role);routeStep=0
@@ -165,6 +171,7 @@ class PerformanceDirector(context:Context) {
         if(!ready||closed)return
         val next=index.coerceIn(0,5);yearTarget=next.toFloat();draggingYear=false
         if(next==ui.yearIndex)return
+        captions?.prepare(null)
         viewRig?.reset()
         clearHover();audio.stop();route=emptyList();resetPoses();ui.selected=null;ui.lyric=null;ui.progress=0f;ui.yearIndex=next
         activateScene(next)
@@ -227,7 +234,7 @@ class PerformanceDirector(context:Context) {
             PerformancePhase.PLAYING -> {
                 val song=ui.selected?.music?:return
                 val time=audio.elapsed
-                actors.values.forEach {it.pose(time,false,it.member.role in song.singers)}
+                song.singers.forEach { role -> actors[role]?.pose(time, false, true) }
                 captionTick+=dt
                 if(captionTick>=.08f){captionTick=0f;ui.lyric=song.cues.firstOrNull{time>=it.start&&time<it.end};ui.progress=(time/song.duration).coerceIn(0f,1f)}
             }
@@ -238,13 +245,26 @@ class PerformanceDirector(context:Context) {
     }
     /** Panel stays in the theater frame so turning actors never turn the text away.
      * Its bottom edge clears the measured model bounds, including the king's crown. */
+    // The avoidance test operates in theater-local coordinates. Only Hamilton walks;
+    // the other actors change position when the active scene is replaced.
+    private data class BiographyLayout(val member: CastMember, val position: StagePoint,
+        val height: Float, val yaw: Float, val eye: Vector3?)
+    private var lastBiographyLayout: BiographyLayout? = null
+    private var lyricsPlaced = false
     private fun renderBiography() {
         val card=biographyCard ?: return
         val actor=actors[ui.selected?.role]
         val visible=actor!=null
         if(card.enabled!=visible)card.enabled=visible
-        if(!visible)return
-        val head=actor!!.root.convertPositionTo(Vector3(0f,actor.member.max.y,0f),world)
+        if (actor == null) {
+            lastBiographyLayout = null
+            return
+        }
+        val layout = BiographyLayout(actor.member, hamiltonPosition, biographyHeight,
+            viewRig?.subjectYaw ?: 0f, viewRig?.framingEye)
+        if (lastBiographyLayout == layout) return
+        lastBiographyLayout = layout
+        val head=actor.root.convertPositionTo(Vector3(0f,actor.member.max.y,0f),world)
         val yaw=viewRig?.subjectYaw?:0f
         val right=rotateY(Vector3(1f,0f,0f),yaw)
         val normal=rotateY(Vector3(0f,0f,1f),yaw)
@@ -291,8 +311,13 @@ class PerformanceDirector(context:Context) {
         val panel=lyricsPanel?:return
         captions?.show(ui.lyric.takeIf{subtitlesVisible})
         val visible=subtitlesVisible
-        if(panel.enabled!=visible)panel.enabled=visible
-        if(!visible)return
+        if (!visible) {
+            lyricsPlaced = false
+            return
+        }
+        // Once playback starts the performers stay in position until the panel hides.
+        if (lyricsPlaced) return
+        lyricsPlaced = true
         val members=performanceSubjects()
         val group=actorEnvelopes(members)
         val centerX=(group.minOf{it.min.x}+group.maxOf{it.max.x})/2f

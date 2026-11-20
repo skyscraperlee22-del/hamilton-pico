@@ -29,7 +29,6 @@ import com.pico.spatial.core.ecs.ModelComponent
 import com.pico.spatial.core.ecs.SpotLightComponent
 import com.pico.spatial.core.ecs.StageEnvironmentLightingComponent
 import com.pico.spatial.core.ecs.TransformComponent
-import com.pico.spatial.core.ecs.light.ShadowFaceCullingMode
 import com.pico.spatial.core.ecs.resource.MaterialCullingMode
 import com.pico.spatial.core.ecs.resource.MeshResource
 import com.pico.spatial.core.ecs.resource.TextureResource
@@ -173,17 +172,14 @@ fun HomeStage() {
 }
 
 private fun addLighting(world: Entity) {
-    // One shadow-casting key and two shadow-free spots keep mobile rendering affordable.
+    // Moving actors and the camera would force a fresh full-stage shadow pass in stereo.
     world.addChild(Entity().apply {
         setName("WarmKey")
         components[TransformComponent::class.java]?.setEulerAngles(EulerAngles(-55f, -25f, 0f))
         components[DirectionalLightComponent::class.java] = DirectionalLightComponent(
             color = Color4(1f, 0.79f, 0.53f, 1f), intensity = 2000f,
-            castsShadowEnabled = true,
-        ).apply {
-            // Respect the inward-facing sky material in the shadow pass.
-            shadowFaceCullingMode = ShadowFaceCullingMode.AUTO
-        }
+            castsShadowEnabled = false,
+        )
     })
     for (x in listOf(-4.5f, 4.5f)) {
         world.addChild(Entity().apply {
